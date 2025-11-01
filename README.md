@@ -45,9 +45,8 @@ Typical paths:
 
 ## Credits
 
-- **Design & Creation:** Brian Miculcy
-- **Based on:** Shakalakka Dynamic Wallpapers
-   Some graphical elements and design concepts were inspired by or derived from this project.
+- **Design & Creation:** [Brian 'morlenxus' Miculcy](https://brian.miculcy.com)
+- **Inspired by:** Shakalakka Dynamic Wallpapers
 - **License:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
