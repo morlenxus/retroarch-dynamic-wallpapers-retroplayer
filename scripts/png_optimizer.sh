@@ -9,7 +9,7 @@ if [ ! -d "${dist_path}" ]; then
 	fi
 fi
 
-find "${dist_path}" -type f -name "*.png" -size +1M | sort | while read -r png_file; do
+find "${dist_path}" -type f -name "*.png" | sort | while read -r png_file; do
 	echo "Compressing ${png_file} ..."
-	convert "${png_file}" -colors 256 -depth 8 -strip -quality 95 "${png_file}"
+	convert "${png_file}" -strip -define png:compression-level=9 PNG24:"${png_file}"
 done
