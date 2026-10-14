@@ -11,5 +11,5 @@ fi
 
 find "${dist_path}" -type f -name "*.png" | sort | while read -r png_file; do
 	echo "Compressing ${png_file} ..."
-	convert "${png_file}" -strip -define png:compression-level=9 PNG24:"${png_file}"
+	convert "${png_file}" -strip -define png:compression-level=9 -define png:exclude-chunks=date,time PNG24:"${png_file}"
 done
