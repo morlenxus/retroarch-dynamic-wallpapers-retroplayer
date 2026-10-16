@@ -22,16 +22,18 @@ def remove_device(image):
             image.remove_layer(layer)
 
 
-def style_genre(image, asset):
+def style_collage(image, asset):
     """Dim only the collage, keeping foreground titles and frames bright."""
+    collage_name = asset.get("collage_layer", "Genre collage")
+    shading_name = "Playlist dimming" if collage_name == "Playlist collage" else "Genre dimming"
     for layer in list(image.get_layers()):
-        if layer.get_name() == "Genre dimming":
+        if layer.get_name() == shading_name:
             image.remove_layer(layer)
-    opacity = asset.get("genre_dimming_opacity", 0)
+    opacity = asset.get("playlist_dimming_opacity", asset.get("genre_dimming_opacity", 0))
     if not opacity:
         return
-    collage = next(l for l in image.get_layers() if l.get_name() == "Genre collage")
-    shading = Gimp.Layer.new(image, "Genre dimming", image.get_width(),
+    collage = next(l for l in image.get_layers() if l.get_name() == collage_name)
+    shading = Gimp.Layer.new(image, shading_name, image.get_width(),
                              image.get_height(), Gimp.ImageType.RGBA_IMAGE,
                              opacity, Gimp.LayerMode.NORMAL)
     image.insert_layer(shading, None, image.get_item_position(collage))
@@ -47,7 +49,7 @@ def style_genre(image, asset):
     shading.set_visible(True)
 
 
-def align_genre_overlay(image, asset, style):
+def align_playlist_overlay(image, asset, style):
     """Use one frame template and center editable headings in a shared area."""
     template = Gimp.file_load(
         Gimp.RunMode.NONINTERACTIVE,
@@ -68,10 +70,12 @@ def align_genre_overlay(image, asset, style):
     font = Gimp.Font.get_by_name(style["font"])
     if font is None:
         raise RuntimeError(f"Missing genre font: {style['font']}")
-    for text, size, box in (
-        (asset["genre"], style["title_size"], style["title_box"]),
-        ("GENRE", style["subtitle_size"], style["subtitle_box"]),
-    ):
+    headings = [(asset.get("heading_title", asset["genre"]),
+                 style["title_size"], style["title_box"])]
+    subtitle = asset.get("heading_subtitle", "GENRE")
+    if subtitle:
+        headings.append((subtitle, style["subtitle_size"], style["subtitle_box"]))
+    for text, size, box in headings:
         title = Gimp.TextLayer.new(image, text, font, size, Gimp.Unit.pixel())
         image.insert_layer(title, None, 0)
         title.set_name(text)
@@ -281,10 +285,10 @@ def update(genre=None):
 
         if asset.get("design") == "hardware-surface":
             style_hardware(image, asset)
-        if "genre_dimming_opacity" in asset:
-            style_genre(image, asset)
+        if "genre_dimming_opacity" in asset or "playlist_dimming_opacity" in asset:
+            style_collage(image, asset)
             if "genre_style" in manifest:
-                align_genre_overlay(image, asset, manifest["genre_style"])
+                align_playlist_overlay(image, asset, manifest["genre_style"])
 
         if not Gimp.file_save(
             Gimp.RunMode.NONINTERACTIVE, image, Gio.File.new_for_path(str(xcf_path))

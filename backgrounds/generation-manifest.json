@@ -201,7 +201,10 @@
       "xcf": "src/- Games List.xcf",
       "export": "dist/- Games List.png",
       "playlist": "/tmp/playlists/- Games List.lpl",
-      "collage_layer": "Playlist collage"
+      "collage_layer": "Playlist collage",
+      "playlist_dimming_opacity": 55,
+      "heading_title": "ALL GAMES",
+      "heading_subtitle": ""
     },
     {
       "genre": "Multiplayer Games",
@@ -211,7 +214,10 @@
       "xcf": "src/- Multiplayer Games.xcf",
       "export": "dist/- Multiplayer Games.png",
       "playlist": "/tmp/playlists/- Multiplayer Games.lpl",
-      "collage_layer": "Playlist collage"
+      "collage_layer": "Playlist collage",
+      "playlist_dimming_opacity": 55,
+      "heading_title": "MULTIPLAYER GAMES",
+      "heading_subtitle": ""
     },
     {
       "genre": "MAME",

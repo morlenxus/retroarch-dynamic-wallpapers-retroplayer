@@ -29,6 +29,11 @@ and colors. The shared settings are recorded under `genre_style` in the manifest
 `- Games List` and `- Multiplayer Games` also use collages based on their own
 playlists, with the same layered XCF and complete PNG export workflow. Their
 artwork is stored in a `Playlist collage` layer; all original backgrounds are removed.
+Both collections use an editable `Playlist dimming` layer at 55% opacity and the
+same warm-white font, black shadow, header alignment and cover-frame template as
+the genre wallpapers. Their single-line headings remain `ALL GAMES` and
+`MULTIPLAYER GAMES`, without a genre caption. The manifest records
+`playlist_dimming_opacity`, `heading_title` and `heading_subtitle`.
 
 The 21 system wallpapers use generated close-ups inspired by their hardware:
 plastic grain, wood veneer, ventilation slots, buttons and other shell details.
