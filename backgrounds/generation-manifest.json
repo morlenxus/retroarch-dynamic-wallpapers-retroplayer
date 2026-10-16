@@ -1,7 +1,7 @@
 {
   "generator": "Built-in image_gen",
   "playlist_source": "User-supplied /tmp/playlists/*.lpl",
-  "note": "Generated interpretations of selected playlist games, not original screenshots. Platformer uses iconic environments. Prompts record requested motifs; generated details may vary.",
+  "note": "Generated interpretations of selected playlist games, not original screenshots. Platformer combines iconic characters and level environments. Prompts record requested motifs; generated details may vary.",
   "assets": [
     {
       "genre": "Action-Adventure",
@@ -9,7 +9,8 @@
       "prompt": "Create one landscape 16:9 illustrated background collage for a retro gaming menu, genre Action-Adventure. Show recognizable visual homages to the user's playlist: orange-armored Samus from Super Metroid exploring alien ruins, Lara Croft from the original Tomb Raider exploring ancient stone architecture, the red-haired explorer from Another World watching an alien sunset, and the futuristic city of Flashback. Peaceful exploration poses, panoramic environments, mysterious and wondrous mood, sophisticated teal and amber painterly retro game illustration. Main characters and architectural details in the right half; left third calm and uncluttered to accommodate a menu overlay later. No text, logos, letters, UI or watermark. Full landscape artwork, not a screenshot or poster mockup.",
       "background": "backgrounds/Z Genre Action-Adventure.png",
       "xcf": "src/Z Genre Action-Adventure.xcf",
-      "export": "dist/Z Genre Action-Adventure.png"
+      "export": "dist/Z Genre Action-Adventure.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Action",
@@ -18,7 +19,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Frogger (frog and busy road), Paperboy (bicycle and flying newspaper), Gauntlet (warrior and dungeon), Super Castlevania 4 (Simon Belmont with whip and gothic castle), Zombies Ate My Neighbors (teenagers and cartoon monsters), Strider (ninja with energy blade). Lighting and mood: urgent arcade action, gothic danger mixed with playful street chaos; emerald shadows, warm sparks. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Action.",
       "background": "backgrounds/Z Genre Action.png",
       "xcf": "src/Z Genre Action.xcf",
-      "export": "dist/Z Genre Action.png"
+      "export": "dist/Z Genre Action.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Beat 'em Up",
@@ -27,7 +29,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Streets of Rage 2 (Axel and Blaze), Final Fight 2 (Haggar), Turtles in Time (four ninja turtles), Golden Axe 2 (barbarian and axe), Double Dragon 2 (martial artist brothers), Cadillacs and Dinosaurs (green Cadillac and dinosaur). Lighting and mood: rainy neon streets, muscular arcade brawling, purple and orange city lights. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Beat 'em Up.",
       "background": "backgrounds/Z Genre Beat 'em Up.png",
       "xcf": "src/Z Genre Beat 'em Up.xcf",
-      "export": "dist/Z Genre Beat 'em Up.png"
+      "export": "dist/Z Genre Beat 'em Up.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Fighting",
@@ -36,7 +39,8 @@
       "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Fighting. A friendly retro martial arts tournament ensemble: Ryu and Chun-Li from Street Fighter II Turbo, Jin Kazama from Tekken 3, and a white-uniform karate competitor from International Karate 2, standing in ready poses on an illuminated arena stage. A blue masked and a yellow masked ninja represent Mortal Kombat 2 in the distance. No injury or contact. Mood of skill, rivalry and sportsmanship. Blue and amber cinematic light. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
       "background": "backgrounds/Z Genre Fighting.png",
       "xcf": "src/Z Genre Fighting.xcf",
-      "export": "dist/Z Genre Fighting.png"
+      "export": "dist/Z Genre Fighting.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Maze",
@@ -45,7 +49,8 @@
       "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Maze. Playful retro arcade collage of Pac-Man's yellow round character and colorful friendly ghosts in a neon blue labyrinth, Rockford from Boulder Dash discovering glowing diamonds among boulders, Dig Dug exploring underground tunnels, and a shiny marble on Marble Madness isometric ramps. Whimsical bright toy-like illustration, blue and golden light. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
       "background": "backgrounds/Z Genre Maze.png",
       "xcf": "src/Z Genre Maze.xcf",
-      "export": "dist/Z Genre Maze.png"
+      "export": "dist/Z Genre Maze.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Paddle",
@@ -54,16 +59,29 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Pong (two white paddles and square ball), Breakout (rainbow brick wall, paddle and ball), Alleyway (Game Boy inspired brick arena with tiny Mario pilot), Pong Sports (green retro sports court), Thro' the Wall (ZX Spectrum colorful bricks). Lighting and mood: minimal geometric arcade energy, precise ricochets and luminous trajectories, midnight blue with cyan and rainbow bricks. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Paddle.",
       "background": "backgrounds/Z Genre Paddle.png",
       "xcf": "src/Z Genre Paddle.xcf",
-      "export": "dist/Z Genre Paddle.png"
+      "export": "dist/Z Genre Paddle.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Platformer",
-      "games": "Super Mario World 1; Sonic the Hedgehog 2; Donkey Kong Country 1",
-      "mood": "joyful momentum, floating platforms, lush jungle meeting checkerboard hills, bright sky and rich saturated colors",
-      "prompt": "Landscape 16:9 illustrated retro platformer genre background, a seamless environmental collage evoking three classic games in the user's playlist: Super Mario World's rounded green hills, green pipes, floating golden blocks and mushroom-like platforms; Sonic the Hedgehog 2's checkerboard earth, grassy loop-de-loop track, golden rings, palms and sparkling waterfalls; Donkey Kong Country's lush jungle, wooden barrels, rope bridges and mine-cart rails. Focus entirely on the iconic level environments, without characters. Joyful adventurous mood, beautifully painted colorful landscape with depth, crisp rich detail toward right two-thirds and a quiet blue sky and distant hills at left third for later menu text. No writing, letters, logos, UI or watermark.",
+      "games": "Super Mario World 1; Super Mario World 2 - Yoshi's Island; Sonic the Hedgehog 2; Donkey Kong Country 1; Kirby's Adventure; Mega Man 2; Crash Bandicoot - Warped; Superfrog",
+      "mood": "joyful platforming adventure, classic hero ensemble integrated into checkerboard hills, mushroom platforms, jungle and waterfalls",
+      "prompt": "Use case: compositing. Asset: 1920x1080 landscape 16:9 retro platformer menu wallpaper background. Input image 1 is the edit target: preserve its beautiful painted platformer environment, green hills, pipes, golden rings, checkerboard loop, waterfalls, jungle, barrels and minecart rails, overall composition and cohesive painterly rendering. Primary request: add a best-of ensemble of recognizable classic platform game heroes from the supplied playlist, integrated into this environment with believable scale, matching painted style and lighting. Show Mario riding green Yoshi on a grassy ledge, blue Sonic in a lively running pose near the checkerboard loop, Donkey Kong on a jungle ledge by a wooden barrel (plain red tie without lettering), pink Kirby floating above a platform, classic blue-armored Mega Man jumping on an upper ledge, orange Crash Bandicoot on the lower-right path, and green caped Superfrog on a mushroom platform. Arrange this ensemble organically across the RIGHT TWO THIRDS with clean distinct silhouettes, balanced sizes and clear faces, not a row of stickers, no duplicates, no cropped heads. These correspond to Super Mario World / Yoshi's Island, Sonic the Hedgehog 2, Donkey Kong Country, Kirby's Adventure, Mega Man 2, Crash Bandicoot Warped, and Superfrog. Leave the LEFT THIRD and upper-left completely free of characters, calm sky and distant environment for an existing menu and header added later. Preserve the landscape edge-to-edge composition and detailed level design. Restrained highlights and rich midtones, no extra glow; a separate 55% dimming layer will be applied later so do not bake a dark overlay into the image. No text, no lettering, no logos, no title, no frames, no UI, no watermark. Change only by integrating the selected characters and small contact shadows; retain the existing environment and visual style.",
       "background": "backgrounds/Z Genre Platformer.png",
       "xcf": "src/Z Genre Platformer.xcf",
-      "export": "dist/Z Genre Platformer.png"
+      "export": "dist/Z Genre Platformer.png",
+      "genre_dimming_opacity": 55,
+      "characters": [
+        "Mario",
+        "Yoshi",
+        "Sonic",
+        "Donkey Kong",
+        "Kirby",
+        "Mega Man",
+        "Crash Bandicoot",
+        "Superfrog"
+      ],
+      "playlist": "/tmp/playlists/Z Genre Platformer.lpl"
     },
     {
       "genre": "Point-and-Click-Adventure",
@@ -72,7 +90,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Monkey Island 2 - LeChuck's Revenge (Guybrush and ghost pirate LeChuck), Day of the Tentacle (purple tentacle), Sam and Max - Hit the Road (dog detective and white rabbit), Indiana Jones and the Fate of Atlantis (fedora explorer and ancient ruins), Myst 1 (mysterious island and library book), Baphomets Fluch 1 (Paris cafe and medieval conspiracy). Lighting and mood: whimsical mystery, Caribbean moonlight blending into mysterious ruins, painterly violet teal and amber. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Point-and-Click-Adventure.",
       "background": "backgrounds/Z Genre Point-and-Click-Adventure.png",
       "xcf": "src/Z Genre Point-and-Click-Adventure.xcf",
-      "export": "dist/Z Genre Point-and-Click-Adventure.png"
+      "export": "dist/Z Genre Point-and-Click-Adventure.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Puzzle",
@@ -81,7 +100,8 @@
       "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Puzzle. A clever whimsical retro puzzle collage: falling colorful Tetris tetrominoes; tiny green-haired blue-clothed Lemmings building a staircase; red, blue and yellow capsules from Dr. Mario; a playful Rube Goldberg machine with gears, ramps and a bowling ball from The Incredible Machine 2; three friendly little goblins from Gobliiins. Jewel colors and magical toy workshop lighting. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
       "background": "backgrounds/Z Genre Puzzle.png",
       "xcf": "src/Z Genre Puzzle.xcf",
-      "export": "dist/Z Genre Puzzle.png"
+      "export": "dist/Z Genre Puzzle.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Quiz",
@@ -90,7 +110,8 @@
       "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Quiz. A cheerful retro trivia game studio collage based on Trivial Pursuit (six colored pie wedges and round board), Glücksrad (bright multicolored prize wheel with blank letter tiles), and Der Preis ist heiß (prize podiums, a gift showcase and studio spotlights). Mood of game-night excitement, warm gold and blue studio illumination. Illustrated objects and stage scenery, no people necessary. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
       "background": "backgrounds/Z Genre Quiz.png",
       "xcf": "src/Z Genre Quiz.xcf",
-      "export": "dist/Z Genre Quiz.png"
+      "export": "dist/Z Genre Quiz.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Racing",
@@ -99,7 +120,8 @@
       "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Racing. An exhilarating classic racing game collage: the red convertible and sunny palm coast of Out Run, blue rally car on gravel from Colin McRae Rally 1, yellow cab in a colorful city from Crazy Taxi, Japanese performance car on a racetrack from Gran Turismo 2, and sleek hovering sci-fi racers evoking F-Zero and WipEout 1. Each vehicle distinct, sweeping roads seamlessly blend into a sunset panorama. Blue and orange light, dynamic yet crisp vehicles, no collisions. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
       "background": "backgrounds/Z Genre Racing.png",
       "xcf": "src/Z Genre Racing.xcf",
-      "export": "dist/Z Genre Racing.png"
+      "export": "dist/Z Genre Racing.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Role-Playing Game",
@@ -108,7 +130,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: The Legend of Zelda 5 - Ocarina of Time (young Link with Master Sword and Hyrule castle), Secret of Mana (Randi and colossal Mana Tree), Pokemon - Rote Edition (Red and Charizard), Pokemon - Gelbe Edition (Pikachu), Diablo 1 (armored warrior and gothic cathedral), Dungeon Master 1 (stone dungeon corridor). Lighting and mood: epic journey and wonder with distant dark danger, enchanted green forest, warm magic and blue twilight. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Role-Playing Game.",
       "background": "backgrounds/Z Genre Role-Playing Game.png",
       "xcf": "src/Z Genre Role-Playing Game.xcf",
-      "export": "dist/Z Genre Role-Playing Game.png"
+      "export": "dist/Z Genre Role-Playing Game.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Shooter",
@@ -117,7 +140,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: DOOM 1 - The Ultimate (green armored Doom marine), Half-Life 1 (Gordon Freeman with crowbar and orange HEV suit), Quake 1 (Ranger and gothic stone arches), R-Type (R-9 spacecraft and biomechanical alien), Space Invaders (pixel alien formation), Turrican 2 (armored hero), GoldenEye 007 (suited spy silhouette). Lighting and mood: intense sci-fi combat, alien invasion and industrial battleground, orange plasma and cold steel blue; no gore. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Shooter.",
       "background": "backgrounds/Z Genre Shooter.png",
       "xcf": "src/Z Genre Shooter.xcf",
-      "export": "dist/Z Genre Shooter.png"
+      "export": "dist/Z Genre Shooter.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Simulation",
@@ -126,7 +150,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Sim City 2000 (isometric metropolis), Theme Hospital (humorous hospital cutaway), Theme Park (rollercoaster and ferris wheel), Transport Tycoon Deluxe - OpenTTD (train tracks and locomotives), Harvest Moon (farmer and cow), Ports of Call (cargo ship and harbor), F-18 Interceptor (fighter jet). Lighting and mood: optimistic miniature living world, cozy detailed diorama, city lights, soft daylight and rich green. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Simulation.",
       "background": "backgrounds/Z Genre Simulation.png",
       "xcf": "src/Z Genre Simulation.xcf",
-      "export": "dist/Z Genre Simulation.png"
+      "export": "dist/Z Genre Simulation.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Sports",
@@ -135,7 +160,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Sensible World of Soccer 1996-1997 (tiny football players and pitch), FIFA 1998 - Road to World Cup '98 (stadium football), Tony Hawk's Pro Skater 2 (skateboarder in halfpipe), Punch-Out!! (Little Mac with green gloves), Wii Sports (bowling and tennis), California Games (surfer), Speedball 2 (futuristic armored athlete). Lighting and mood: energetic sports festival, stadium floodlights, ocean blue and turf green, dynamic athletic motion. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Sports.",
       "background": "backgrounds/Z Genre Sports.png",
       "xcf": "src/Z Genre Sports.xcf",
-      "export": "dist/Z Genre Sports.png"
+      "export": "dist/Z Genre Sports.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Strategy",
@@ -144,7 +170,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Command and Conquer 1 - Tiberian Dawn (GDI tank and green Tiberium crystals), WarCraft 2 (orc and human armies), Civilization 1 (ancient city evolving to modern skyline), Dune 2 (desert tanks and sandworm), Worms Armageddon (pink worm with bazooka), Die Siedler 2 (medieval settlement), Dungeon Keeper 1 (red horned demon). Lighting and mood: grand tactical planning and conquest, isometric battle map merging desert and green medieval terrain, strategic warm/cool lighting. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Strategy.",
       "background": "backgrounds/Z Genre Strategy.png",
       "xcf": "src/Z Genre Strategy.xcf",
-      "export": "dist/Z Genre Strategy.png"
+      "export": "dist/Z Genre Strategy.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Survival Horror",
@@ -153,7 +180,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Alone in the Dark 1 (Edward Carnby in haunted mansion with oil lamp), Resident Evil 2 (Leon S. Kennedy in blue police uniform, Claire Redfield in red jacket, ruined Raccoon City), Silent Hill 1 (Harry Mason with flashlight, foggy deserted street and distant school). Lighting and mood: oppressive dread, isolation, thick fog, decaying interiors, sparse cold light and red emergency glow, unsettling shadows without gore. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Survival Horror.",
       "background": "backgrounds/Z Genre Survival Horror.png",
       "xcf": "src/Z Genre Survival Horror.xcf",
-      "export": "dist/Z Genre Survival Horror.png"
+      "export": "dist/Z Genre Survival Horror.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "System",
@@ -162,7 +190,8 @@
       "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Amiga Workbench v1.3.3 (blue white orange vintage desktop), Workbench v2.1 and v3.1 (gray beveled windows), X-Copy 2.0 (dual floppy-drive copier interface), Little Sound DJ (Game Boy music tracker and chiptune waveform), Windows 3.11 (Program Manager icon grid), Windows 95 (teal desktop and classic taskbar). Lighting and mood: nostalgic retro computing workbench, CRT monitors, floppy disks, mouse, Amiga and beige PC, soft phosphor glow in blue teal amber; visual interface shapes without readable text. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: System.",
       "background": "backgrounds/Z Genre System.png",
       "xcf": "src/Z Genre System.xcf",
-      "export": "dist/Z Genre System.png"
+      "export": "dist/Z Genre System.png",
+      "genre_dimming_opacity": 55
     },
     {
       "genre": "Games List",
@@ -643,5 +672,28 @@
       ]
     }
   ],
-  "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed."
+  "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed.",
+  "genre_style": {
+    "frame_template": "src/Z Genre Platformer.xcf",
+    "font": "DejaVu Sans Mono Bold",
+    "text_color": "#f4f2ed",
+    "title_size": 46.5,
+    "subtitle_size": 25.55,
+    "title_box": [
+      30,
+      23,
+      384,
+      66
+    ],
+    "subtitle_box": [
+      30,
+      87,
+      384,
+      34
+    ],
+    "shadow_offset": [
+      2,
+      2
+    ]
+  }
 }

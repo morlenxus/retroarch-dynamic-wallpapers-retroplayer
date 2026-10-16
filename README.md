@@ -9,10 +9,22 @@ Only the exported `.png` files are required for use in RetroArch.
 The 18 `Z Genre` wallpapers use generated collages based on selected titles from
 the supplied genre playlists. The standalone backgrounds are in `backgrounds/`;
 `backgrounds/generation-manifest.json` records the prompts and playlist motifs.
-Platformer combines iconic level environments, and System depicts retro computing.
+Platformer combines Mario with Yoshi, Sonic, Donkey Kong, Kirby, Mega Man,
+Crash Bandicoot and Superfrog with iconic level environments from its playlist.
+System depicts retro computing.
 Each genre XCF uses the `Genre collage` layer; the original background is removed.
 The PNGs in `dist/` include the visible titles, frames, and artwork.
 Titles use light lettering with a shadow for contrast over the artwork.
+All 18 genre sources include an editable `Genre dimming` layer at 55% opacity
+above the collage and below the titles and frames. This reduces background glare
+so menu text and game covers stand out. The original collage PNGs in
+`backgrounds/` retain their full brightness; exported wallpapers include the dimming.
+The manifest records the strength as `genre_dimming_opacity`.
+All genre headings use warm-white DejaVu Sans Mono Bold with black shadows.
+Titles are centered in the same 384 × 66 px header area at (30, 23); long names
+shrink to fit. The `GENRE` caption uses a common area at (30, 87). All genre
+cover frames use the neutral Platformer frame template with identical positions
+and colors. The shared settings are recorded under `genre_style` in the manifest.
 
 `- Games List` and `- Multiplayer Games` also use collages based on their own
 playlists, with the same layered XCF and complete PNG export workflow. Their

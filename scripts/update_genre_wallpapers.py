@@ -22,6 +22,79 @@ def remove_device(image):
             image.remove_layer(layer)
 
 
+def style_genre(image, asset):
+    """Dim only the collage, keeping foreground titles and frames bright."""
+    for layer in list(image.get_layers()):
+        if layer.get_name() == "Genre dimming":
+            image.remove_layer(layer)
+    opacity = asset.get("genre_dimming_opacity", 0)
+    if not opacity:
+        return
+    collage = next(l for l in image.get_layers() if l.get_name() == "Genre collage")
+    shading = Gimp.Layer.new(image, "Genre dimming", image.get_width(),
+                             image.get_height(), Gimp.ImageType.RGBA_IMAGE,
+                             opacity, Gimp.LayerMode.NORMAL)
+    image.insert_layer(shading, None, image.get_item_position(collage))
+    shading.set_blend_space(Gimp.LayerColorSpace.RGB_PERCEPTUAL)
+    shading.set_composite_space(Gimp.LayerColorSpace.RGB_PERCEPTUAL)
+    Gimp.context_push()
+    try:
+        Gimp.Selection.none(image)
+        Gimp.context_set_foreground(Gegl.Color.new("black"))
+        shading.edit_fill(Gimp.FillType.FOREGROUND)
+    finally:
+        Gimp.context_pop()
+    shading.set_visible(True)
+
+
+def align_genre_overlay(image, asset, style):
+    """Use one frame template and center editable headings in a shared area."""
+    template = Gimp.file_load(
+        Gimp.RunMode.NONINTERACTIVE,
+        Gio.File.new_for_path(str(ROOT / style["frame_template"])),
+    )
+    try:
+        source = next(l for l in template.get_layers() if l.get_name() == "Fading")
+        frame = Gimp.Layer.new_from_drawable(source, image)
+        for layer in list(image.get_layers()):
+            if layer.get_name() == "Fading" or isinstance(layer, Gimp.TextLayer):
+                image.remove_layer(layer)
+        image.insert_layer(frame, None, 0)
+        frame.set_name("Fading")
+        frame.set_visible(True)
+    finally:
+        template.delete()
+
+    font = Gimp.Font.get_by_name(style["font"])
+    if font is None:
+        raise RuntimeError(f"Missing genre font: {style['font']}")
+    for text, size, box in (
+        (asset["genre"], style["title_size"], style["title_box"]),
+        ("GENRE", style["subtitle_size"], style["subtitle_box"]),
+    ):
+        title = Gimp.TextLayer.new(image, text, font, size, Gimp.Unit.pixel())
+        image.insert_layer(title, None, 0)
+        title.set_name(text)
+        x, y, width, height = box
+        while title.get_width() > width:
+            size -= 0.5
+            if size <= 0:
+                raise RuntimeError(f"Genre heading does not fit: {text}")
+            title.set_font_size(size, Gimp.Unit.pixel())
+        x += round((width - title.get_width()) / 2)
+        y += round((height - title.get_height()) / 2)
+        title.set_offsets(x, y)
+        title.set_color(Gegl.Color.new(style["text_color"]))
+        title.set_visible(True)
+        shadow = title.copy()
+        image.insert_layer(shadow, None, image.get_item_position(title) + 1)
+        shadow.set_name(text + " - shadow")
+        shadow.set_color(Gegl.Color.new("black"))
+        dx, dy = style["shadow_offset"]
+        shadow.set_offsets(x + dx, y + dy)
+        shadow.set_visible(True)
+
+
 def style_hardware(image, asset):
     """Apply editable evening lighting and consistent, truly dark text shadows."""
     remove_device(image)
@@ -208,6 +281,10 @@ def update(genre=None):
 
         if asset.get("design") == "hardware-surface":
             style_hardware(image, asset)
+        if "genre_dimming_opacity" in asset:
+            style_genre(image, asset)
+            if "genre_style" in manifest:
+                align_genre_overlay(image, asset, manifest["genre_style"])
 
         if not Gimp.file_save(
             Gimp.RunMode.NONINTERACTIVE, image, Gio.File.new_for_path(str(xcf_path))
