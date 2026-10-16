@@ -1,0 +1,589 @@
+{
+  "generator": "Built-in image_gen",
+  "playlist_source": "User-supplied /tmp/playlists/*.lpl",
+  "note": "Generated interpretations of selected playlist games, not original screenshots. Platformer uses iconic environments. Prompts record requested motifs; generated details may vary.",
+  "assets": [
+    {
+      "genre": "Action-Adventure",
+      "games": "Super Metroid; Tomb Raider 1; Another World; Flashback",
+      "prompt": "Create one landscape 16:9 illustrated background collage for a retro gaming menu, genre Action-Adventure. Show recognizable visual homages to the user's playlist: orange-armored Samus from Super Metroid exploring alien ruins, Lara Croft from the original Tomb Raider exploring ancient stone architecture, the red-haired explorer from Another World watching an alien sunset, and the futuristic city of Flashback. Peaceful exploration poses, panoramic environments, mysterious and wondrous mood, sophisticated teal and amber painterly retro game illustration. Main characters and architectural details in the right half; left third calm and uncluttered to accommodate a menu overlay later. No text, logos, letters, UI or watermark. Full landscape artwork, not a screenshot or poster mockup.",
+      "background": "backgrounds/Z Genre Action-Adventure.png",
+      "xcf": "src/Z Genre Action-Adventure.xcf",
+      "export": "dist/Z Genre Action-Adventure.png"
+    },
+    {
+      "genre": "Action",
+      "games": "Frogger (frog and busy road), Paperboy (bicycle and flying newspaper), Gauntlet (warrior and dungeon), Super Castlevania 4 (Simon Belmont with whip and gothic castle), Zombies Ate My Neighbors (teenagers and cartoon monsters), Strider (ninja with energy blade)",
+      "mood": "urgent arcade action, gothic danger mixed with playful street chaos; emerald shadows, warm sparks",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Frogger (frog and busy road), Paperboy (bicycle and flying newspaper), Gauntlet (warrior and dungeon), Super Castlevania 4 (Simon Belmont with whip and gothic castle), Zombies Ate My Neighbors (teenagers and cartoon monsters), Strider (ninja with energy blade). Lighting and mood: urgent arcade action, gothic danger mixed with playful street chaos; emerald shadows, warm sparks. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Action.",
+      "background": "backgrounds/Z Genre Action.png",
+      "xcf": "src/Z Genre Action.xcf",
+      "export": "dist/Z Genre Action.png"
+    },
+    {
+      "genre": "Beat 'em Up",
+      "games": "Streets of Rage 2 (Axel and Blaze), Final Fight 2 (Haggar), Turtles in Time (four ninja turtles), Golden Axe 2 (barbarian and axe), Double Dragon 2 (martial artist brothers), Cadillacs and Dinosaurs (green Cadillac and dinosaur)",
+      "mood": "rainy neon streets, muscular arcade brawling, purple and orange city lights",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Streets of Rage 2 (Axel and Blaze), Final Fight 2 (Haggar), Turtles in Time (four ninja turtles), Golden Axe 2 (barbarian and axe), Double Dragon 2 (martial artist brothers), Cadillacs and Dinosaurs (green Cadillac and dinosaur). Lighting and mood: rainy neon streets, muscular arcade brawling, purple and orange city lights. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Beat 'em Up.",
+      "background": "backgrounds/Z Genre Beat 'em Up.png",
+      "xcf": "src/Z Genre Beat 'em Up.xcf",
+      "export": "dist/Z Genre Beat 'em Up.png"
+    },
+    {
+      "genre": "Fighting",
+      "games": "Street Fighter II Turbo; Tekken 3; International Karate 2; Mortal Kombat 2",
+      "mood": "tournament rivalry, dramatic fighting stances, electric blue and fiery red arena light",
+      "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Fighting. A friendly retro martial arts tournament ensemble: Ryu and Chun-Li from Street Fighter II Turbo, Jin Kazama from Tekken 3, and a white-uniform karate competitor from International Karate 2, standing in ready poses on an illuminated arena stage. A blue masked and a yellow masked ninja represent Mortal Kombat 2 in the distance. No injury or contact. Mood of skill, rivalry and sportsmanship. Blue and amber cinematic light. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
+      "background": "backgrounds/Z Genre Fighting.png",
+      "xcf": "src/Z Genre Fighting.xcf",
+      "export": "dist/Z Genre Fighting.png"
+    },
+    {
+      "genre": "Maze",
+      "games": "Pac-Man; Boulder Dash 1; Dig Dug; Marble Madness",
+      "mood": "playful labyrinth puzzles, vivid arcade colors, dark cobalt passages, jewel glow",
+      "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Maze. Playful retro arcade collage of Pac-Man's yellow round character and colorful friendly ghosts in a neon blue labyrinth, Rockford from Boulder Dash discovering glowing diamonds among boulders, Dig Dug exploring underground tunnels, and a shiny marble on Marble Madness isometric ramps. Whimsical bright toy-like illustration, blue and golden light. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
+      "background": "backgrounds/Z Genre Maze.png",
+      "xcf": "src/Z Genre Maze.xcf",
+      "export": "dist/Z Genre Maze.png"
+    },
+    {
+      "genre": "Paddle",
+      "games": "Pong (two white paddles and square ball), Breakout (rainbow brick wall, paddle and ball), Alleyway (Game Boy inspired brick arena with tiny Mario pilot), Pong Sports (green retro sports court), Thro' the Wall (ZX Spectrum colorful bricks)",
+      "mood": "minimal geometric arcade energy, precise ricochets and luminous trajectories, midnight blue with cyan and rainbow bricks",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Pong (two white paddles and square ball), Breakout (rainbow brick wall, paddle and ball), Alleyway (Game Boy inspired brick arena with tiny Mario pilot), Pong Sports (green retro sports court), Thro' the Wall (ZX Spectrum colorful bricks). Lighting and mood: minimal geometric arcade energy, precise ricochets and luminous trajectories, midnight blue with cyan and rainbow bricks. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Paddle.",
+      "background": "backgrounds/Z Genre Paddle.png",
+      "xcf": "src/Z Genre Paddle.xcf",
+      "export": "dist/Z Genre Paddle.png"
+    },
+    {
+      "genre": "Platformer",
+      "games": "Super Mario World 1; Sonic the Hedgehog 2; Donkey Kong Country 1",
+      "mood": "joyful momentum, floating platforms, lush jungle meeting checkerboard hills, bright sky and rich saturated colors",
+      "prompt": "Landscape 16:9 illustrated retro platformer genre background, a seamless environmental collage evoking three classic games in the user's playlist: Super Mario World's rounded green hills, green pipes, floating golden blocks and mushroom-like platforms; Sonic the Hedgehog 2's checkerboard earth, grassy loop-de-loop track, golden rings, palms and sparkling waterfalls; Donkey Kong Country's lush jungle, wooden barrels, rope bridges and mine-cart rails. Focus entirely on the iconic level environments, without characters. Joyful adventurous mood, beautifully painted colorful landscape with depth, crisp rich detail toward right two-thirds and a quiet blue sky and distant hills at left third for later menu text. No writing, letters, logos, UI or watermark.",
+      "background": "backgrounds/Z Genre Platformer.png",
+      "xcf": "src/Z Genre Platformer.xcf",
+      "export": "dist/Z Genre Platformer.png"
+    },
+    {
+      "genre": "Point-and-Click-Adventure",
+      "games": "Monkey Island 2 - LeChuck's Revenge (Guybrush and ghost pirate LeChuck), Day of the Tentacle (purple tentacle), Sam and Max - Hit the Road (dog detective and white rabbit), Indiana Jones and the Fate of Atlantis (fedora explorer and ancient ruins), Myst 1 (mysterious island and library book), Baphomets Fluch 1 (Paris cafe and medieval conspiracy)",
+      "mood": "whimsical mystery, Caribbean moonlight blending into mysterious ruins, painterly violet teal and amber",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Monkey Island 2 - LeChuck's Revenge (Guybrush and ghost pirate LeChuck), Day of the Tentacle (purple tentacle), Sam and Max - Hit the Road (dog detective and white rabbit), Indiana Jones and the Fate of Atlantis (fedora explorer and ancient ruins), Myst 1 (mysterious island and library book), Baphomets Fluch 1 (Paris cafe and medieval conspiracy). Lighting and mood: whimsical mystery, Caribbean moonlight blending into mysterious ruins, painterly violet teal and amber. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Point-and-Click-Adventure.",
+      "background": "backgrounds/Z Genre Point-and-Click-Adventure.png",
+      "xcf": "src/Z Genre Point-and-Click-Adventure.xcf",
+      "export": "dist/Z Genre Point-and-Click-Adventure.png"
+    },
+    {
+      "genre": "Puzzle",
+      "games": "Tetris; Lemmings; Dr. Mario; The Incredible Machine 2; Gobliiins 1",
+      "mood": "clever playful discovery, toy-like mechanisms and satisfying geometric order, luminous jewel colors",
+      "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Puzzle. A clever whimsical retro puzzle collage: falling colorful Tetris tetrominoes; tiny green-haired blue-clothed Lemmings building a staircase; red, blue and yellow capsules from Dr. Mario; a playful Rube Goldberg machine with gears, ramps and a bowling ball from The Incredible Machine 2; three friendly little goblins from Gobliiins. Jewel colors and magical toy workshop lighting. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
+      "background": "backgrounds/Z Genre Puzzle.png",
+      "xcf": "src/Z Genre Puzzle.xcf",
+      "export": "dist/Z Genre Puzzle.png"
+    },
+    {
+      "genre": "Quiz",
+      "games": "Trivial Pursuit; Glücksrad; Der Preis ist heiß",
+      "mood": "cheerful television quiz night, anticipation and prizes, warm gold blue and magenta studio lights",
+      "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Quiz. A cheerful retro trivia game studio collage based on Trivial Pursuit (six colored pie wedges and round board), Glücksrad (bright multicolored prize wheel with blank letter tiles), and Der Preis ist heiß (prize podiums, a gift showcase and studio spotlights). Mood of game-night excitement, warm gold and blue studio illumination. Illustrated objects and stage scenery, no people necessary. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
+      "background": "backgrounds/Z Genre Quiz.png",
+      "xcf": "src/Z Genre Quiz.xcf",
+      "export": "dist/Z Genre Quiz.png"
+    },
+    {
+      "genre": "Racing",
+      "games": "Out Run; Colin McRae Rally 1; Crazy Taxi; Gran Turismo 2; F-Zero; WipEout 1",
+      "mood": "exhilarating speed, coastal sunset blending into neon futuristic track, orange and electric blue motion",
+      "prompt": "Create a polished landscape 16:9 background illustration for a retro gaming menu, genre Racing. An exhilarating classic racing game collage: the red convertible and sunny palm coast of Out Run, blue rally car on gravel from Colin McRae Rally 1, yellow cab in a colorful city from Crazy Taxi, Japanese performance car on a racetrack from Gran Turismo 2, and sleek hovering sci-fi racers evoking F-Zero and WipEout 1. Each vehicle distinct, sweeping roads seamlessly blend into a sunset panorama. Blue and orange light, dynamic yet crisp vehicles, no collisions. Cohesive hand-painted montage. Put the main motifs on the right half, with a quiet low-detail left third for a later menu overlay. No text, lettering, logos, watermark or UI.",
+      "background": "backgrounds/Z Genre Racing.png",
+      "xcf": "src/Z Genre Racing.xcf",
+      "export": "dist/Z Genre Racing.png"
+    },
+    {
+      "genre": "Role-Playing Game",
+      "games": "The Legend of Zelda 5 - Ocarina of Time (young Link with Master Sword and Hyrule castle), Secret of Mana (Randi and colossal Mana Tree), Pokemon - Rote Edition (Red and Charizard), Pokemon - Gelbe Edition (Pikachu), Diablo 1 (armored warrior and gothic cathedral), Dungeon Master 1 (stone dungeon corridor)",
+      "mood": "epic journey and wonder with distant dark danger, enchanted green forest, warm magic and blue twilight",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: The Legend of Zelda 5 - Ocarina of Time (young Link with Master Sword and Hyrule castle), Secret of Mana (Randi and colossal Mana Tree), Pokemon - Rote Edition (Red and Charizard), Pokemon - Gelbe Edition (Pikachu), Diablo 1 (armored warrior and gothic cathedral), Dungeon Master 1 (stone dungeon corridor). Lighting and mood: epic journey and wonder with distant dark danger, enchanted green forest, warm magic and blue twilight. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Role-Playing Game.",
+      "background": "backgrounds/Z Genre Role-Playing Game.png",
+      "xcf": "src/Z Genre Role-Playing Game.xcf",
+      "export": "dist/Z Genre Role-Playing Game.png"
+    },
+    {
+      "genre": "Shooter",
+      "games": "DOOM 1 - The Ultimate (green armored Doom marine), Half-Life 1 (Gordon Freeman with crowbar and orange HEV suit), Quake 1 (Ranger and gothic stone arches), R-Type (R-9 spacecraft and biomechanical alien), Space Invaders (pixel alien formation), Turrican 2 (armored hero), GoldenEye 007 (suited spy silhouette)",
+      "mood": "intense sci-fi combat, alien invasion and industrial battleground, orange plasma and cold steel blue; no gore",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: DOOM 1 - The Ultimate (green armored Doom marine), Half-Life 1 (Gordon Freeman with crowbar and orange HEV suit), Quake 1 (Ranger and gothic stone arches), R-Type (R-9 spacecraft and biomechanical alien), Space Invaders (pixel alien formation), Turrican 2 (armored hero), GoldenEye 007 (suited spy silhouette). Lighting and mood: intense sci-fi combat, alien invasion and industrial battleground, orange plasma and cold steel blue; no gore. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Shooter.",
+      "background": "backgrounds/Z Genre Shooter.png",
+      "xcf": "src/Z Genre Shooter.xcf",
+      "export": "dist/Z Genre Shooter.png"
+    },
+    {
+      "genre": "Simulation",
+      "games": "Sim City 2000 (isometric metropolis), Theme Hospital (humorous hospital cutaway), Theme Park (rollercoaster and ferris wheel), Transport Tycoon Deluxe - OpenTTD (train tracks and locomotives), Harvest Moon (farmer and cow), Ports of Call (cargo ship and harbor), F-18 Interceptor (fighter jet)",
+      "mood": "optimistic miniature living world, cozy detailed diorama, city lights, soft daylight and rich green",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Sim City 2000 (isometric metropolis), Theme Hospital (humorous hospital cutaway), Theme Park (rollercoaster and ferris wheel), Transport Tycoon Deluxe - OpenTTD (train tracks and locomotives), Harvest Moon (farmer and cow), Ports of Call (cargo ship and harbor), F-18 Interceptor (fighter jet). Lighting and mood: optimistic miniature living world, cozy detailed diorama, city lights, soft daylight and rich green. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Simulation.",
+      "background": "backgrounds/Z Genre Simulation.png",
+      "xcf": "src/Z Genre Simulation.xcf",
+      "export": "dist/Z Genre Simulation.png"
+    },
+    {
+      "genre": "Sports",
+      "games": "Sensible World of Soccer 1996-1997 (tiny football players and pitch), FIFA 1998 - Road to World Cup '98 (stadium football), Tony Hawk's Pro Skater 2 (skateboarder in halfpipe), Punch-Out!! (Little Mac with green gloves), Wii Sports (bowling and tennis), California Games (surfer), Speedball 2 (futuristic armored athlete)",
+      "mood": "energetic sports festival, stadium floodlights, ocean blue and turf green, dynamic athletic motion",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Sensible World of Soccer 1996-1997 (tiny football players and pitch), FIFA 1998 - Road to World Cup '98 (stadium football), Tony Hawk's Pro Skater 2 (skateboarder in halfpipe), Punch-Out!! (Little Mac with green gloves), Wii Sports (bowling and tennis), California Games (surfer), Speedball 2 (futuristic armored athlete). Lighting and mood: energetic sports festival, stadium floodlights, ocean blue and turf green, dynamic athletic motion. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Sports.",
+      "background": "backgrounds/Z Genre Sports.png",
+      "xcf": "src/Z Genre Sports.xcf",
+      "export": "dist/Z Genre Sports.png"
+    },
+    {
+      "genre": "Strategy",
+      "games": "Command and Conquer 1 - Tiberian Dawn (GDI tank and green Tiberium crystals), WarCraft 2 (orc and human armies), Civilization 1 (ancient city evolving to modern skyline), Dune 2 (desert tanks and sandworm), Worms Armageddon (pink worm with bazooka), Die Siedler 2 (medieval settlement), Dungeon Keeper 1 (red horned demon)",
+      "mood": "grand tactical planning and conquest, isometric battle map merging desert and green medieval terrain, strategic warm/cool lighting",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Command and Conquer 1 - Tiberian Dawn (GDI tank and green Tiberium crystals), WarCraft 2 (orc and human armies), Civilization 1 (ancient city evolving to modern skyline), Dune 2 (desert tanks and sandworm), Worms Armageddon (pink worm with bazooka), Die Siedler 2 (medieval settlement), Dungeon Keeper 1 (red horned demon). Lighting and mood: grand tactical planning and conquest, isometric battle map merging desert and green medieval terrain, strategic warm/cool lighting. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Strategy.",
+      "background": "backgrounds/Z Genre Strategy.png",
+      "xcf": "src/Z Genre Strategy.xcf",
+      "export": "dist/Z Genre Strategy.png"
+    },
+    {
+      "genre": "Survival Horror",
+      "games": "Alone in the Dark 1 (Edward Carnby in haunted mansion with oil lamp), Resident Evil 2 (Leon S. Kennedy in blue police uniform, Claire Redfield in red jacket, ruined Raccoon City), Silent Hill 1 (Harry Mason with flashlight, foggy deserted street and distant school)",
+      "mood": "oppressive dread, isolation, thick fog, decaying interiors, sparse cold light and red emergency glow, unsettling shadows without gore",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Alone in the Dark 1 (Edward Carnby in haunted mansion with oil lamp), Resident Evil 2 (Leon S. Kennedy in blue police uniform, Claire Redfield in red jacket, ruined Raccoon City), Silent Hill 1 (Harry Mason with flashlight, foggy deserted street and distant school). Lighting and mood: oppressive dread, isolation, thick fog, decaying interiors, sparse cold light and red emergency glow, unsettling shadows without gore. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Survival Horror.",
+      "background": "backgrounds/Z Genre Survival Horror.png",
+      "xcf": "src/Z Genre Survival Horror.xcf",
+      "export": "dist/Z Genre Survival Horror.png"
+    },
+    {
+      "genre": "System",
+      "games": "Amiga Workbench v1.3.3 (blue white orange vintage desktop), Workbench v2.1 and v3.1 (gray beveled windows), X-Copy 2.0 (dual floppy-drive copier interface), Little Sound DJ (Game Boy music tracker and chiptune waveform), Windows 3.11 (Program Manager icon grid), Windows 95 (teal desktop and classic taskbar)",
+      "mood": "nostalgic retro computing workbench, CRT monitors, floppy disks, mouse, Amiga and beige PC, soft phosphor glow in blue teal amber; visual interface shapes without readable text",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: Amiga Workbench v1.3.3 (blue white orange vintage desktop), Workbench v2.1 and v3.1 (gray beveled windows), X-Copy 2.0 (dual floppy-drive copier interface), Little Sound DJ (Game Boy music tracker and chiptune waveform), Windows 3.11 (Program Manager icon grid), Windows 95 (teal desktop and classic taskbar). Lighting and mood: nostalgic retro computing workbench, CRT monitors, floppy disks, mouse, Amiga and beige PC, soft phosphor glow in blue teal amber; visual interface shapes without readable text. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: System.",
+      "background": "backgrounds/Z Genre System.png",
+      "xcf": "src/Z Genre System.xcf",
+      "export": "dist/Z Genre System.png"
+    },
+    {
+      "genre": "Games List",
+      "games": "Pac-Man; Tetris; Super Metroid; The Legend of Zelda 5 - Ocarina of Time; Tomb Raider 1; Monkey Island 2 - LeChuck's Revenge; Out Run; Sonic the Hedgehog 2",
+      "prompt": "Use case: stylized-concept. Asset type: 1920x1080 landscape 16:9 background for RetroArch RetroPlayer playlist 'Games List'. Create a seamless, polished painterly retro game collage: a panoramic celebration of a large retro game collection spanning arcade, console and computer adventures. Blend Pac-Man and colorful maze ghosts, floating Tetris blocks, orange-armored Samus exploring alien ruins from Super Metroid, Link overlooking Hyrule castle from Ocarina of Time, Lara Croft exploring stone ruins from the original Tomb Raider, Guybrush and a pirate ship from Monkey Island 2, Out Run's red convertible and palm-lined coastal road, and Sonic 2's checkerboard loop and golden rings. Balanced sense of discovery, nostalgia and the variety of gaming, not dominated by any one genre. Recognizable motifs from only these user-playlist games. Consistent richly detailed illustrated game key-art style, warm amber highlights and cool blue/teal depth matching a premium retro wallpaper collection. Composition: major subjects on RIGHT half and lower-right, LEFT third calm and low-detail for the menu, top-left quiet for title overlay. Edge-to-edge landscape art. No text, letters, logos, UI, watermarks, borders, box covers or screenshot panels.",
+      "background": "backgrounds/- Games List.png",
+      "xcf": "src/- Games List.xcf",
+      "export": "dist/- Games List.png",
+      "playlist": "/tmp/playlists/- Games List.lpl",
+      "collage_layer": "Playlist collage"
+    },
+    {
+      "genre": "Multiplayer Games",
+      "games": "Bubble Bobble; Super Bomberman 1; Teenage Mutant Hero Turtles 4 - Turtles in Time; Worms Armageddon; Micro Machines; Sensible Soccer - Sensible World of Soccer 1996-1997",
+      "prompt": "Use case: stylized-concept. Create one wide 16:9 illustrated retro gaming wallpaper about multiplayer fun and playing together. A seamless cheerful collage of these games from the user's playlist: Bubble Bobble with Bub and Bob, the friendly green and blue bubble dragons surrounded by shining bubbles; Super Bomberman 1 with white and black helmeted characters on a colorful tiled arena; Turtles in Time with the four ninja turtle teammates posing together; Worms Armageddon with friendly pink cartoon worms in grassy terrain; Micro Machines with tiny colorful race cars speeding side by side around a tabletop track; Sensible World of Soccer with two small opposing soccer teams on a green pitch. Emphasize cooperation, friendship and playful competition, no fighting or injuries, no weapons. Richly detailed painterly arcade key art, magical blue and amber light and joyful vivid colors. Place main recognizable subjects on the RIGHT half and lower-right; leave LEFT third calm, dark blue, uncluttered for an existing menu, with quiet top-left for existing title. Landscape edge to edge. No text, lettering, logos, UI, frame, watermark, cover boxes or separate panels.",
+      "background": "backgrounds/- Multiplayer Games.png",
+      "xcf": "src/- Multiplayer Games.xcf",
+      "export": "dist/- Multiplayer Games.png",
+      "playlist": "/tmp/playlists/- Multiplayer Games.lpl",
+      "collage_layer": "Playlist collage"
+    },
+    {
+      "genre": "MAME",
+      "playlist": "/tmp/playlists/Arcade Machines.lpl",
+      "design": "hardware-surface",
+      "description": "Arcade cabinet control deck: fine black pebbled vinyl over dark wood cabinet panels, warm visible woodgrain along an inset edge, glossy rounded red joystick ball, blue and yellow arcade buttons toward the lower right, subtle CRT phosphor glow reflecting on the surface. A real 1980s/1990s arcade cabinet material study, no screen artwork.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by MAME. Create a premium photorealistic extreme close-up hardware surface composition: Arcade cabinet control deck: fine black pebbled vinyl over dark wood cabinet panels, warm visible woodgrain along an inset edge, glossy rounded red joystick ball, blue and yellow arcade buttons toward the lower right, subtle CRT phosphor glow reflecting on the surface. A real 1980s/1990s arcade cabinet material study, no screen artwork. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/MAME.png",
+      "xcf": "src/MAME.xcf",
+      "export": "dist/MAME.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 24,
+      "playlist_examples": [
+        "1943 - The Battle of Midway",
+        "Asteroids",
+        "Bomb Jack"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#27d6e8"
+    },
+    {
+      "genre": "Atari - 2600",
+      "playlist": "/tmp/playlists/Atari - 1977 - 2600.lpl",
+      "design": "hardware-surface",
+      "description": "Original wood-front Atari 2600 design language: richly grained warm walnut veneer strip, deep black plastic with long parallel cooling ribs, brushed silver toggle switches on a black sloping panel at right, a restrained thin orange accent. Distinctive warm wood and black seventies home-console material aesthetic.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Atari - 2600. Create a premium photorealistic extreme close-up hardware surface composition: Original wood-front Atari 2600 design language: richly grained warm walnut veneer strip, deep black plastic with long parallel cooling ribs, brushed silver toggle switches on a black sloping panel at right, a restrained thin orange accent. Distinctive warm wood and black seventies home-console material aesthetic. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Atari - 2600.png",
+      "xcf": "src/Atari - 2600.xcf",
+      "export": "dist/Atari - 2600.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 7,
+      "playlist_examples": [
+        "Breakout",
+        "Centipede",
+        "E.T. the Extra-Terrestrial"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#ef9c2e"
+    },
+    {
+      "genre": "Commodore - 64",
+      "playlist": "/tmp/playlists/Commodore - 1982 - 64.lpl",
+      "design": "hardware-surface",
+      "description": "Classic Commodore 64 breadbin: gently curved warm beige molded plastic, fine matte plastic grain, rounded stepped rear vent slots, dark brown and tan keyboard keycaps partially visible along lower right, small horizontal rainbow accent stripes at far right. Tactile beige-and-brown home computer design.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Commodore - 64. Create a premium photorealistic extreme close-up hardware surface composition: Classic Commodore 64 breadbin: gently curved warm beige molded plastic, fine matte plastic grain, rounded stepped rear vent slots, dark brown and tan keyboard keycaps partially visible along lower right, small horizontal rainbow accent stripes at far right. Tactile beige-and-brown home computer design. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Commodore - 64.png",
+      "xcf": "src/Commodore - 64.xcf",
+      "export": "dist/Commodore - 64.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 35,
+      "playlist_examples": [
+        "Alter Ego - Female Version",
+        "Alter Ego - Male Version",
+        "Archon"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#4ca8e8"
+    },
+    {
+      "genre": "Commodore - Amiga",
+      "playlist": "/tmp/playlists/Commodore - 1987 - Amiga.lpl",
+      "design": "hardware-surface",
+      "description": "Amiga 500-inspired late-1980s computer shell: warm ivory cream molded plastic, long clean horizontal ventilation slots, sculpted low wedge edges, cream and light-gray keyboard keys cropped at lower-right, tiny green and red indicator light details. Soft ivory and gray, understated studio lighting.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Commodore - Amiga. Create a premium photorealistic extreme close-up hardware surface composition: Amiga 500-inspired late-1980s computer shell: warm ivory cream molded plastic, long clean horizontal ventilation slots, sculpted low wedge edges, cream and light-gray keyboard keys cropped at lower-right, tiny green and red indicator light details. Soft ivory and gray, understated studio lighting. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Commodore - Amiga.png",
+      "xcf": "src/Commodore - Amiga.xcf",
+      "export": "dist/Commodore - Amiga.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 170,
+      "playlist_examples": [
+        "Alcatraz",
+        "Alien Breed 1",
+        "Alien Breed 2 - The Horror Continues"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#e4674f"
+    },
+    {
+      "genre": "Handheld Electronic Game",
+      "playlist": "/tmp/playlists/Handheld Electronic Game.lpl",
+      "design": "hardware-surface",
+      "description": "A material collage evoking vintage LCD handheld electronic games across Game & Watch, VTech and similar devices: brushed champagne bronze faceplate set into warm ivory plastic, dark framed olive-gray LCD glass with subtle unlit segment silhouettes, burgundy and orange circular rubber buttons and fine speaker perforations at right. No single model dominates, nostalgic pocket LCD toy textures.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Handheld Electronic Game. Create a premium photorealistic extreme close-up hardware surface composition: A material collage evoking vintage LCD handheld electronic games across Game & Watch, VTech and similar devices: brushed champagne bronze faceplate set into warm ivory plastic, dark framed olive-gray LCD glass with subtle unlit segment silhouettes, burgundy and orange circular rubber buttons and fine speaker perforations at right. No single model dominates, nostalgic pocket LCD toy textures. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Handheld Electronic Game.png",
+      "xcf": "src/Handheld Electronic Game.xcf",
+      "export": "dist/Handheld Electronic Game.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "logo_shadow_color": "black",
+      "playlist_items": 27,
+      "playlist_examples": [
+        "Baseball (VTech, Explorer Time and Fun)",
+        "Bomb Fight (VTech, Mini Time and Fun)",
+        "Condor (VTech, Time and Fun)"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#e9c879"
+    },
+    {
+      "genre": "Nintendo - Nintendo Entertainment System",
+      "playlist": "/tmp/playlists/Nintendo - Console - 1983 - Nintendo Entertainment System.lpl",
+      "design": "hardware-surface",
+      "description": "Nintendo Entertainment System original western NES design language: two-tone light gray and dark charcoal injection-molded plastic, crisp rectangular steps, a broad black cartridge-slot recess and parallel vent ribs at right, small deep red rectangular buttons. Recognizably angular gray-black-red 8-bit industrial design.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Nintendo Entertainment System. Create a premium photorealistic extreme close-up hardware surface composition: Nintendo Entertainment System original western NES design language: two-tone light gray and dark charcoal injection-molded plastic, crisp rectangular steps, a broad black cartridge-slot recess and parallel vent ribs at right, small deep red rectangular buttons. Recognizably angular gray-black-red 8-bit industrial design. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Nintendo Entertainment System.png",
+      "xcf": "src/Nintendo - Nintendo Entertainment System.xcf",
+      "export": "dist/Nintendo - Nintendo Entertainment System.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 26,
+      "playlist_examples": [
+        "Batman - The Video Game",
+        "Bomberman",
+        "Castlevania 1"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#f05a5a"
+    },
+    {
+      "genre": "Nintendo - Super Nintendo Entertainment System",
+      "playlist": "/tmp/playlists/Nintendo - Console - 1990 - Super Nintendo Entertainment System.lpl",
+      "design": "hardware-surface",
+      "description": "European/Japanese-style Super Nintendo / Super Famicom industrial design, matching PAL SNES rather than the American purple-button model: smoothly rounded light gray shell, darker gray inset panel with broad grooves, small red, blue, green and yellow circular controller buttons arranged as four colored accents at right, broad rounded power-slider shapes. Soft matte gray console textures.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Super Nintendo Entertainment System. Create a premium photorealistic extreme close-up hardware surface composition: European/Japanese-style Super Nintendo / Super Famicom industrial design, matching PAL SNES rather than the American purple-button model: smoothly rounded light gray shell, darker gray inset panel with broad grooves, small red, blue, green and yellow circular controller buttons arranged as four colored accents at right, broad rounded power-slider shapes. Soft matte gray console textures. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Super Nintendo Entertainment System.png",
+      "xcf": "src/Nintendo - Super Nintendo Entertainment System.xcf",
+      "export": "dist/Nintendo - Super Nintendo Entertainment System.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 56,
+      "playlist_examples": [
+        "ActRaiser 1",
+        "ActRaiser 2",
+        "Aladdin"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#62b5e8"
+    },
+    {
+      "genre": "Nintendo - Nintendo 64",
+      "playlist": "/tmp/playlists/Nintendo - Console - 1996 - Nintendo 64.lpl",
+      "design": "hardware-surface",
+      "description": "Nintendo 64 industrial design: fine charcoal-black matte plastic, organically curved raised shell ribs and cartridge-slot forms at right, a subtle cropped three-prong controller contour with gray analog stick, small yellow C-button cluster and blue and green button accents toward lower-right. Rounded dark 1990s hardware aesthetic.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Nintendo 64. Create a premium photorealistic extreme close-up hardware surface composition: Nintendo 64 industrial design: fine charcoal-black matte plastic, organically curved raised shell ribs and cartridge-slot forms at right, a subtle cropped three-prong controller contour with gray analog stick, small yellow C-button cluster and blue and green button accents toward lower-right. Rounded dark 1990s hardware aesthetic. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Nintendo 64.png",
+      "xcf": "src/Nintendo - Nintendo 64.xcf",
+      "export": "dist/Nintendo - Nintendo 64.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 11,
+      "playlist_examples": [
+        "Doom 64",
+        "GoldenEye 007",
+        "Mario Kart 64"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#59ce8c"
+    },
+    {
+      "genre": "Nintendo - Wii",
+      "playlist": "/tmp/playlists/Nintendo - Console - 2006 - Wii.lpl",
+      "design": "hardware-surface",
+      "description": "Original white Nintendo Wii industrial design: glossy white and pearl-white plastic, clean narrow inset disc-slot line with restrained blue illumination at right, crisp bevels and a small circular power-control detail, cropped smooth white remote surface and subtle speaker holes at lower-right. Minimal elegant white hardware with soft blue reflections.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Wii. Create a premium photorealistic extreme close-up hardware surface composition: Original white Nintendo Wii industrial design: glossy white and pearl-white plastic, clean narrow inset disc-slot line with restrained blue illumination at right, crisp bevels and a small circular power-control detail, cropped smooth white remote surface and subtle speaker holes at lower-right. Minimal elegant white hardware with soft blue reflections. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Wii.png",
+      "xcf": "src/Nintendo - Wii.xcf",
+      "export": "dist/Nintendo - Wii.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "logo_shadow_color": "black",
+      "playlist_items": 2,
+      "playlist_examples": [
+        "LEGO Harry Potter - Years 1-4",
+        "Wii Sports"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#55c9f4"
+    },
+    {
+      "genre": "Nintendo - Game Boy",
+      "playlist": "/tmp/playlists/Nintendo - Handheld - 1989 - Game Boy.lpl",
+      "design": "hardware-surface",
+      "description": "Original DMG Game Boy material design: warm off-white finely grained shell, dark gray LCD bezel and muted olive-green reflective LCD glass, two dark burgundy round buttons and black cross directional pad details at right, gently curved corner and diagonal speaker slits. Tactile cream, gray, olive and burgundy late-eighties handheld aesthetics.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Game Boy. Create a premium photorealistic extreme close-up hardware surface composition: Original DMG Game Boy material design: warm off-white finely grained shell, dark gray LCD bezel and muted olive-green reflective LCD glass, two dark burgundy round buttons and black cross directional pad details at right, gently curved corner and diagonal speaker slits. Tactile cream, gray, olive and burgundy late-eighties handheld aesthetics. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Game Boy.png",
+      "xcf": "src/Nintendo - Game Boy.xcf",
+      "export": "dist/Nintendo - Game Boy.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 31,
+      "playlist_examples": [
+        "Alleyway",
+        "Asterix",
+        "Blues Brothers"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#b6c66e"
+    },
+    {
+      "genre": "Nintendo - Game Boy Color",
+      "playlist": "/tmp/playlists/Nintendo - Handheld - 1998 - Game Boy Color.lpl",
+      "design": "hardware-surface",
+      "description": "Atomic Purple Game Boy Color material study: translucent purple molded shell showing subtle circuit board silhouettes and internal screw posts, glossy purple edge highlights, dark LCD bezel and black circular buttons toward right, small pale gray speaker-hole grille. Rich authentic see-through purple handheld plastic, no neon fantasy electronics.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Game Boy Color. Create a premium photorealistic extreme close-up hardware surface composition: Atomic Purple Game Boy Color material study: translucent purple molded shell showing subtle circuit board silhouettes and internal screw posts, glossy purple edge highlights, dark LCD bezel and black circular buttons toward right, small pale gray speaker-hole grille. Rich authentic see-through purple handheld plastic, no neon fantasy electronics. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Game Boy Color.png",
+      "xcf": "src/Nintendo - Game Boy Color.xcf",
+      "export": "dist/Nintendo - Game Boy Color.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "logo_shadow_color": "#eeeeee",
+      "playlist_items": 20,
+      "playlist_examples": [
+        "Asterix and Obelix",
+        "Bundesliga Stars 2001",
+        "Die Moorhuhnjagd 1"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#b986f2"
+    },
+    {
+      "genre": "Nintendo - Game Boy Advance",
+      "playlist": "/tmp/playlists/Nintendo - Handheld - 2001 - Game Boy Advance.lpl",
+      "design": "hardware-surface",
+      "description": "Original horizontal indigo Game Boy Advance material design: metallic indigo-violet curved shell, broad organic horizontal contour, dark recessed screen bezel cropped at right, translucent light gray shoulder and face buttons and black cross pad as peripheral details. Indigo textured plastic and cool silver accents.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Nintendo - Game Boy Advance. Create a premium photorealistic extreme close-up hardware surface composition: Original horizontal indigo Game Boy Advance material design: metallic indigo-violet curved shell, broad organic horizontal contour, dark recessed screen bezel cropped at right, translucent light gray shoulder and face buttons and black cross pad as peripheral details. Indigo textured plastic and cool silver accents. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Nintendo - Game Boy Advance.png",
+      "xcf": "src/Nintendo - Game Boy Advance.xcf",
+      "export": "dist/Nintendo - Game Boy Advance.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 15,
+      "playlist_examples": [
+        "Asterix and Obelix",
+        "Bomberman Max 2 - Blue Advance",
+        "Bomberman Tournament"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#8b95ff"
+    },
+    {
+      "genre": "PC - DOS",
+      "playlist": "/tmp/playlists/PC - DOS.lpl",
+      "design": "hardware-surface",
+      "description": "Late-1980s to early-1990s DOS-era beige desktop computer material study: warm beige ABS shell, horizontal case ventilation ribs, rectangular 5.25-inch and 3.5-inch floppy drive bezel details at right, cream keyboard keycaps partially cropped lower-right, small amber and green indicator LEDs, a narrow recessed dark CRT glass edge. Utilitarian tactile ivory plastic and muted brushed steel.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by PC - DOS. Create a premium photorealistic extreme close-up hardware surface composition: Late-1980s to early-1990s DOS-era beige desktop computer material study: warm beige ABS shell, horizontal case ventilation ribs, rectangular 5.25-inch and 3.5-inch floppy drive bezel details at right, cream keyboard keycaps partially cropped lower-right, small amber and green indicator LEDs, a narrow recessed dark CRT glass edge. Utilitarian tactile ivory plastic and muted brushed steel. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/PC - DOS.png",
+      "xcf": "src/PC - DOS.xcf",
+      "export": "dist/PC - DOS.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 59,
+      "playlist_examples": [
+        "Flight of the Amazon Queen",
+        "Indiana Jones and the Fate of Atlantis",
+        "Indiana Jones and the Last Crusade"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#d8b168"
+    },
+    {
+      "genre": "PC - Windows",
+      "playlist": "/tmp/playlists/PC - Windows.lpl",
+      "design": "hardware-surface",
+      "description": "Mid-1990s Windows 95-era beige multimedia PC industrial design: cool ivory molded tower casing and broad vent perforations, CD-ROM tray seam and small round power button at right, subtle green indicator, translucent teal reflected CRT light, beige keyboard edge cropped lower-right. Slightly smoother, cleaner multimedia-era hardware than an older DOS PC; no modern gaming RGB or modern flat screens.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by PC - Windows. Create a premium photorealistic extreme close-up hardware surface composition: Mid-1990s Windows 95-era beige multimedia PC industrial design: cool ivory molded tower casing and broad vent perforations, CD-ROM tray seam and small round power button at right, subtle green indicator, translucent teal reflected CRT light, beige keyboard edge cropped lower-right. Slightly smoother, cleaner multimedia-era hardware than an older DOS PC; no modern gaming RGB or modern flat screens. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/PC - Windows.png",
+      "xcf": "src/PC - Windows.xcf",
+      "export": "dist/PC - Windows.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 11,
+      "playlist_examples": [
+        "Baphomets Fluch 1",
+        "Blade Runner",
+        "Monkey Island 3 - The Curse of Monkey Island"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#65cfcb"
+    },
+    {
+      "genre": "Sega - Master System - Mark III",
+      "playlist": "/tmp/playlists/Sega - Console - 1985 - Master System - Mark III.lpl",
+      "design": "hardware-surface",
+      "description": "Black and red western Sega Master System industrial design: crisp geometric black injection-molded case, long parallel vent ribs, deep red angular recessed panel accents, subtle embossed grid-like detailing and squared control shapes at right. Strong black-and-red graphic geometry, muted studio reflections.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Sega - Master System - Mark III. Create a premium photorealistic extreme close-up hardware surface composition: Black and red western Sega Master System industrial design: crisp geometric black injection-molded case, long parallel vent ribs, deep red angular recessed panel accents, subtle embossed grid-like detailing and squared control shapes at right. Strong black-and-red graphic geometry, muted studio reflections. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Sega - Master System - Mark III.png",
+      "xcf": "src/Sega - Master System - Mark III.xcf",
+      "export": "dist/Sega - Master System - Mark III.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 8,
+      "playlist_examples": [
+        "Alex Kidd 1 - In Miracle World",
+        "Alex Kidd 2 - In High-Tech World",
+        "Alex Kidd 3 - In Shinobi World"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#ed4b5f"
+    },
+    {
+      "genre": "Sega - Mega Drive - Genesis",
+      "playlist": "/tmp/playlists/Sega - Console - 1989 - Mega Drive - Genesis.lpl",
+      "design": "hardware-surface",
+      "description": "First-model Sega Mega Drive / Genesis design language: finely textured jet-black plastic, large cropped circular cartridge-deck relief toward right, restrained thin metallic gold ring accent and radial stepped plastic geometry, small red control accent and curved black controller details at lower-right. Deep blacks, graphite and subtle gold.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Sega - Mega Drive - Genesis. Create a premium photorealistic extreme close-up hardware surface composition: First-model Sega Mega Drive / Genesis design language: finely textured jet-black plastic, large cropped circular cartridge-deck relief toward right, restrained thin metallic gold ring accent and radial stepped plastic geometry, small red control accent and curved black controller details at lower-right. Deep blacks, graphite and subtle gold. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Sega - Mega Drive - Genesis.png",
+      "xcf": "src/Sega - Mega Drive - Genesis.xcf",
+      "export": "dist/Sega - Mega Drive - Genesis.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 24,
+      "playlist_examples": [
+        "Alex Kidd 4 - In the Enchanted Castle",
+        "Body Count",
+        "Desert Strike - Return to the Gulf"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#d4b46a"
+    },
+    {
+      "genre": "Sega - Dreamcast",
+      "playlist": "/tmp/playlists/Sega - Console - 1998 - Dreamcast.lpl",
+      "design": "hardware-surface",
+      "description": "Sega Dreamcast industrial design: pale cool-gray / white finely textured plastic, broad cropped circular disc lid and soft triangular rounded corner shapes at right, tiny orange indicator glow and light gray controller contour with a small inset VMU-style screen bezel lower-right. Optimistic clean late-nineties hardware, restrained orange detail, no spiral emblem or lettering.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Sega - Dreamcast. Create a premium photorealistic extreme close-up hardware surface composition: Sega Dreamcast industrial design: pale cool-gray / white finely textured plastic, broad cropped circular disc lid and soft triangular rounded corner shapes at right, tiny orange indicator glow and light gray controller contour with a small inset VMU-style screen bezel lower-right. Optimistic clean late-nineties hardware, restrained orange detail, no spiral emblem or lettering. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Sega - Dreamcast.png",
+      "xcf": "src/Sega - Dreamcast.xcf",
+      "export": "dist/Sega - Dreamcast.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "logo_shadow_color": "black",
+      "playlist_items": 2,
+      "playlist_examples": [
+        "Crazy Taxi",
+        "The House of the Dead 2"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#65aeff"
+    },
+    {
+      "genre": "Sinclair - ZX Spectrum",
+      "playlist": "/tmp/playlists/Sinclair - 1982 - ZX Spectrum.lpl",
+      "design": "hardware-surface",
+      "description": "Original 48K ZX Spectrum industrial design: charcoal-black matte shell, characteristic rounded dark gray rubber keyboard keys cropped along lower-right, a clean diagonal rainbow stripe of red yellow green cyan at far-right edge, shallow ridged plastic and compact sharp case edge. Minimal black rubber-key computer texture with distinctive rainbow corner accent.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Sinclair - ZX Spectrum. Create a premium photorealistic extreme close-up hardware surface composition: Original 48K ZX Spectrum industrial design: charcoal-black matte shell, characteristic rounded dark gray rubber keyboard keys cropped along lower-right, a clean diagonal rainbow stripe of red yellow green cyan at far-right edge, shallow ridged plastic and compact sharp case edge. Minimal black rubber-key computer texture with distinctive rainbow corner accent. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Sinclair - ZX Spectrum.png",
+      "xcf": "src/Sinclair - ZX Spectrum.xcf",
+      "export": "dist/Sinclair - ZX Spectrum.png",
+      "collage_layer": "System surface",
+      "text_color": "white",
+      "shadow_color": "black",
+      "playlist_items": 2,
+      "playlist_examples": [
+        "Jet Set Willy",
+        "Thro' the Wall"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#53d8e3"
+    },
+    {
+      "genre": "Sony - PlayStation",
+      "playlist": "/tmp/playlists/Sony - 1994 - PlayStation 1.lpl",
+      "design": "hardware-surface",
+      "description": "Original 1994 Sony PlayStation industrial design: cool light-gray finely grained plastic, broad cropped circular disc-lid relief and horizontal vent slats on right, rounded power and eject controls as sculptural details, four small colored controller-button glyphs or colored shapes in green pink blue red at lower-right. Recognizably sculpted gray first-generation PlayStation surface, not a PSone or later model.",
+      "prompt": "Use case: product-mockup. Asset: standalone 1920x1080 16:9 RetroArch wallpaper background inspired by Sony - PlayStation. Create a premium photorealistic extreme close-up hardware surface composition: Original 1994 Sony PlayStation industrial design: cool light-gray finely grained plastic, broad cropped circular disc-lid relief and horizontal vent slats on right, rounded power and eject controls as sculptural details, four small colored controller-button glyphs or colored shapes in green pink blue red at lower-right. Recognizably sculpted gray first-generation PlayStation surface, not a PSone or later model. The hardware materials and surface fill the ENTIRE image edge-to-edge, like an oversized abstract crop of the shell; no complete console floating in a room, no table setting. Keep the left third visually quiet, low-detail and softly shaded for an existing menu. Concentrate recognizable grooves, slots and control details in the RIGHT half and lower-right. Top-left and top-right corners must remain calm to accommodate existing platform logo and small console illustration. Soft directional studio light, tactile material grain, believable molded plastic and subtle age without dirt, carefully restrained reflections, dimensional but almost planar. No text, no lettering, no wordmarks, no logos, no watermark, no UI, no picture frames, no game characters, no game covers. Landscape edge-to-edge hardware texture wallpaper.",
+      "background": "backgrounds/Sony - PlayStation.png",
+      "xcf": "src/Sony - PlayStation.xcf",
+      "export": "dist/Sony - PlayStation.png",
+      "collage_layer": "System surface",
+      "text_color": "#202020",
+      "shadow_color": "#f5f5f5",
+      "playlist_items": 52,
+      "playlist_examples": [
+        "Alien Resurrection",
+        "Alien Trilogy",
+        "Area 51"
+      ],
+      "device_presentation": "smoked-glass-card",
+      "device_accent": "#78b9a3"
+    }
+  ],
+  "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and device illustrations are retained in the XCF files."
+}

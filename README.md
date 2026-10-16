@@ -6,6 +6,29 @@ The `.png` files inside the `dist/` directory are the exported versions used by 
 
 Only the exported `.png` files are required for use in RetroArch.
 
+The 18 `Z Genre` wallpapers use generated collages based on selected titles from
+the supplied genre playlists. The standalone backgrounds are in `backgrounds/`;
+`backgrounds/generation-manifest.json` records the prompts and playlist motifs.
+Platformer combines iconic level environments, and System depicts retro computing.
+Each genre XCF uses the `Genre collage` layer; the original background is removed.
+The PNGs in `dist/` include the visible titles, frames, and artwork.
+Titles use light lettering with a shadow for contrast over the artwork.
+
+`- Games List` and `- Multiplayer Games` also use collages based on their own
+playlists, with the same layered XCF and complete PNG export workflow. Their
+artwork is stored in a `Playlist collage` layer; all original backgrounds are removed.
+
+The 19 system wallpapers use generated close-ups inspired by their hardware:
+plastic grain, wood veneer, ventilation slots, buttons and other shell details.
+Arcade and electronic handheld playlists combine materials typical of their devices;
+DOS and Windows use period computer case details. These are artistic interpretations
+of hardware surfaces. Existing logos, device illustrations and frames remain separate
+layers above `System surface`. Original backgrounds are removed, and text contrast is
+adapted to light or dark materials. The manifest records each system's playlist and prompt.
+The top-right device cutouts are centered on translucent smoked-glass cards with
+rounded edges, a soft shadow and a subtle light in a platform-specific accent color.
+These elements remain editable in the `Device presentation` group, below `Device`.
+
 ---
 
 ## Installation
