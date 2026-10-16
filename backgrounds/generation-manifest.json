@@ -194,7 +194,7 @@
       "xcf": "src/MAME.xcf",
       "export": "dist/MAME.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 24,
       "playlist_examples": [
@@ -202,8 +202,8 @@
         "Asteroids",
         "Bomb Jack"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#27d6e8"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Atari - 2600",
@@ -215,7 +215,7 @@
       "xcf": "src/Atari - 2600.xcf",
       "export": "dist/Atari - 2600.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 7,
       "playlist_examples": [
@@ -223,8 +223,8 @@
         "Centipede",
         "E.T. the Extra-Terrestrial"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#ef9c2e"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Commodore - 64",
@@ -236,16 +236,16 @@
       "xcf": "src/Commodore - 64.xcf",
       "export": "dist/Commodore - 64.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 35,
       "playlist_examples": [
         "Alter Ego - Female Version",
         "Alter Ego - Male Version",
         "Archon"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#4ca8e8"
+      "evening_opacity": 31,
+      "shadow_opacity": 90
     },
     {
       "genre": "Commodore - Amiga",
@@ -257,16 +257,16 @@
       "xcf": "src/Commodore - Amiga.xcf",
       "export": "dist/Commodore - Amiga.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 170,
       "playlist_examples": [
         "Alcatraz",
         "Alien Breed 1",
         "Alien Breed 2 - The Horror Continues"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#e4674f"
+      "evening_opacity": 44,
+      "shadow_opacity": 90
     },
     {
       "genre": "Handheld Electronic Game",
@@ -278,8 +278,8 @@
       "xcf": "src/Handheld Electronic Game.xcf",
       "export": "dist/Handheld Electronic Game.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "logo_shadow_color": "black",
       "playlist_items": 27,
       "playlist_examples": [
@@ -287,8 +287,8 @@
         "Bomb Fight (VTech, Mini Time and Fun)",
         "Condor (VTech, Time and Fun)"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#e9c879"
+      "evening_opacity": 44,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Nintendo Entertainment System",
@@ -300,16 +300,16 @@
       "xcf": "src/Nintendo - Nintendo Entertainment System.xcf",
       "export": "dist/Nintendo - Nintendo Entertainment System.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 26,
       "playlist_examples": [
         "Batman - The Video Game",
         "Bomberman",
         "Castlevania 1"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#f05a5a"
+      "evening_opacity": 29,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Super Nintendo Entertainment System",
@@ -321,16 +321,16 @@
       "xcf": "src/Nintendo - Super Nintendo Entertainment System.xcf",
       "export": "dist/Nintendo - Super Nintendo Entertainment System.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 56,
       "playlist_examples": [
         "ActRaiser 1",
         "ActRaiser 2",
         "Aladdin"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#62b5e8"
+      "evening_opacity": 38,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Nintendo 64",
@@ -342,7 +342,7 @@
       "xcf": "src/Nintendo - Nintendo 64.xcf",
       "export": "dist/Nintendo - Nintendo 64.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 11,
       "playlist_examples": [
@@ -350,8 +350,8 @@
         "GoldenEye 007",
         "Mario Kart 64"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#59ce8c"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Wii",
@@ -363,16 +363,16 @@
       "xcf": "src/Nintendo - Wii.xcf",
       "export": "dist/Nintendo - Wii.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "logo_shadow_color": "black",
       "playlist_items": 2,
       "playlist_examples": [
         "LEGO Harry Potter - Years 1-4",
         "Wii Sports"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#55c9f4"
+      "evening_opacity": 56,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Game Boy",
@@ -384,16 +384,16 @@
       "xcf": "src/Nintendo - Game Boy.xcf",
       "export": "dist/Nintendo - Game Boy.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 31,
       "playlist_examples": [
         "Alleyway",
         "Asterix",
         "Blues Brothers"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#b6c66e"
+      "evening_opacity": 34,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Game Boy Color",
@@ -405,7 +405,7 @@
       "xcf": "src/Nintendo - Game Boy Color.xcf",
       "export": "dist/Nintendo - Game Boy Color.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "logo_shadow_color": "#eeeeee",
       "playlist_items": 20,
@@ -414,8 +414,8 @@
         "Bundesliga Stars 2001",
         "Die Moorhuhnjagd 1"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#b986f2"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Nintendo - Game Boy Advance",
@@ -427,7 +427,7 @@
       "xcf": "src/Nintendo - Game Boy Advance.xcf",
       "export": "dist/Nintendo - Game Boy Advance.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 15,
       "playlist_examples": [
@@ -435,8 +435,8 @@
         "Bomberman Max 2 - Blue Advance",
         "Bomberman Tournament"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#8b95ff"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "PC - DOS",
@@ -448,16 +448,16 @@
       "xcf": "src/PC - DOS.xcf",
       "export": "dist/PC - DOS.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 59,
       "playlist_examples": [
         "Flight of the Amazon Queen",
         "Indiana Jones and the Fate of Atlantis",
         "Indiana Jones and the Last Crusade"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#d8b168"
+      "evening_opacity": 33,
+      "shadow_opacity": 90
     },
     {
       "genre": "PC - Windows",
@@ -469,16 +469,16 @@
       "xcf": "src/PC - Windows.xcf",
       "export": "dist/PC - Windows.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 11,
       "playlist_examples": [
         "Baphomets Fluch 1",
         "Blade Runner",
         "Monkey Island 3 - The Curse of Monkey Island"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#65cfcb"
+      "evening_opacity": 22,
+      "shadow_opacity": 90
     },
     {
       "genre": "Sega - Master System - Mark III",
@@ -490,7 +490,7 @@
       "xcf": "src/Sega - Master System - Mark III.xcf",
       "export": "dist/Sega - Master System - Mark III.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 8,
       "playlist_examples": [
@@ -498,8 +498,8 @@
         "Alex Kidd 2 - In High-Tech World",
         "Alex Kidd 3 - In Shinobi World"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#ed4b5f"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Sega - Mega Drive - Genesis",
@@ -511,7 +511,7 @@
       "xcf": "src/Sega - Mega Drive - Genesis.xcf",
       "export": "dist/Sega - Mega Drive - Genesis.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 24,
       "playlist_examples": [
@@ -519,8 +519,8 @@
         "Body Count",
         "Desert Strike - Return to the Gulf"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#d4b46a"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Sega - Dreamcast",
@@ -532,16 +532,16 @@
       "xcf": "src/Sega - Dreamcast.xcf",
       "export": "dist/Sega - Dreamcast.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "logo_shadow_color": "black",
       "playlist_items": 2,
       "playlist_examples": [
         "Crazy Taxi",
         "The House of the Dead 2"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#65aeff"
+      "evening_opacity": 45,
+      "shadow_opacity": 90
     },
     {
       "genre": "Sinclair - ZX Spectrum",
@@ -553,15 +553,15 @@
       "xcf": "src/Sinclair - ZX Spectrum.xcf",
       "export": "dist/Sinclair - ZX Spectrum.png",
       "collage_layer": "System surface",
-      "text_color": "white",
+      "text_color": "#f4f2ed",
       "shadow_color": "black",
       "playlist_items": 2,
       "playlist_examples": [
         "Jet Set Willy",
         "Thro' the Wall"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#53d8e3"
+      "evening_opacity": 0,
+      "shadow_opacity": 90
     },
     {
       "genre": "Sony - PlayStation",
@@ -573,17 +573,75 @@
       "xcf": "src/Sony - PlayStation.xcf",
       "export": "dist/Sony - PlayStation.png",
       "collage_layer": "System surface",
-      "text_color": "#202020",
-      "shadow_color": "#f5f5f5",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
       "playlist_items": 52,
       "playlist_examples": [
         "Alien Resurrection",
         "Alien Trilogy",
         "Area 51"
       ],
-      "device_presentation": "smoked-glass-card",
-      "device_accent": "#78b9a3"
+      "evening_opacity": 21,
+      "shadow_opacity": 90
+    },
+    {
+      "genre": "Sega - Game Gear",
+      "design": "hardware-surface",
+      "description": "Original black Sega Game Gear handheld material design: finely pebbled charcoal-black rounded shell, large dark recessed rectangular screen bezel cropped in the upper-right half, curved ergonomic horizontal body contours, a cropped black cross directional pad toward lower-right, two blue circular action buttons and a small blue start-button detail, curved diagonal speaker slits. A tiny red power indicator and a subtle red/green/blue stripe accent can add restrained color. Clearly the original bulky black color handheld, not a modern handheld or a console gamepad.",
+      "prompt": "Use case: product-mockup. Asset type: standalone 1920x1080 landscape 16:9 RetroArch RetroPlayer hardware wallpaper background for Sega - Game Gear. Create a photorealistic extreme close-up of hardware materials filling the full frame: Original black Sega Game Gear handheld material design: finely pebbled charcoal-black rounded shell, large dark recessed rectangular screen bezel cropped in the upper-right half, curved ergonomic horizontal body contours, a cropped black cross directional pad toward lower-right, two blue circular action buttons and a small blue start-button detail, curved diagonal speaker slits. A tiny red power indicator and a subtle red/green/blue stripe accent can add restrained color. Clearly the original bulky black color handheld, not a modern handheld or a console gamepad. Composition: almost planar oversized shell-surface crop, edge to edge. LEFT third calm, low detail and dark for menu and logo overlays added later; focus recognisable hardware features in RIGHT half and lower-right. Moody evening studio lighting with soft restrained reflections and subtle material grain; retain recognizable original plastic colors. No complete device floating in a room, no separate product picture, no furniture, no people, no game characters, no text, letters, logos, UI, frames or watermark.",
+      "background": "backgrounds/Sega - Game Gear.png",
+      "xcf": "src/Sega - Game Gear.xcf",
+      "export": "dist/Sega - Game Gear.png",
+      "collage_layer": "System surface",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
+      "shadow_opacity": 90,
+      "evening_opacity": 0,
+      "release_year": 1990,
+      "release_basis": "First Japanese hardware release",
+      "reference_url": "https://www.sega.jp/history/hard/gamegear/",
+      "template_xcf": "src/Sega - Dreamcast.xcf",
+      "template_brand_layers": [
+        "Logo #1",
+        "Logo #1 - contrast"
+      ],
+      "platform_logo": "assets/logos/Sega - Game Gear.svg",
+      "platform_logo_source": "https://commons.wikimedia.org/wiki/File:Game_gear_eu_logo.svg",
+      "platform_logo_width": 384,
+      "platform_logo_position": [
+        30,
+        89
+      ]
+    },
+    {
+      "genre": "Sega - CD",
+      "design": "hardware-surface",
+      "description": "Original Sega CD / Mega-CD first-model hardware design: finely textured matte black and graphite plastic, a broad horizontal front-loading CD tray seam and layered rectangular drive-fascia forms toward the right, orderly horizontal ventilation slats, a slim polished dark inset strip, a discreet small green access LED with a restrained metallic silver accent. Emphasize the industrial stacked CD-ROM expansion aesthetic, not a top-loading circular disc lid and not a modern optical drive. Elegant restrained early-1990s black hi-fi computer hardware.",
+      "prompt": "Use case: product-mockup. Asset type: standalone 1920x1080 landscape 16:9 RetroArch RetroPlayer hardware wallpaper background for Sega - CD. Create a photorealistic extreme close-up of hardware materials filling the full frame: Original Sega CD / Mega-CD first-model hardware design: finely textured matte black and graphite plastic, a broad horizontal front-loading CD tray seam and layered rectangular drive-fascia forms toward the right, orderly horizontal ventilation slats, a slim polished dark inset strip, a discreet small green access LED with a restrained metallic silver accent. Emphasize the industrial stacked CD-ROM expansion aesthetic, not a top-loading circular disc lid and not a modern optical drive. Elegant restrained early-1990s black hi-fi computer hardware. Composition: almost planar oversized shell-surface crop, edge to edge. LEFT third calm, low detail and dark for menu and logo overlays added later; focus recognisable hardware features in RIGHT half and lower-right. Moody evening studio lighting with soft restrained reflections and subtle material grain; retain recognizable original plastic colors. No complete device floating in a room, no separate product picture, no furniture, no people, no game characters, no text, letters, logos, UI, frames or watermark.",
+      "background": "backgrounds/Sega - CD.png",
+      "xcf": "src/Sega - CD.xcf",
+      "export": "dist/Sega - CD.png",
+      "collage_layer": "System surface",
+      "text_color": "#f4f2ed",
+      "shadow_color": "black",
+      "shadow_opacity": 90,
+      "evening_opacity": 0,
+      "release_year": 1991,
+      "release_basis": "First Japanese hardware release as Mega-CD",
+      "reference_url": "https://www.sega.jp/history/hard/mega-cd/index.html",
+      "template_xcf": "src/Sega - Dreamcast.xcf",
+      "template_brand_layers": [
+        "Logo #1",
+        "Logo #1 - contrast"
+      ],
+      "platform_logo": "assets/logos/Sega - CD.svg",
+      "platform_logo_source": "https://commons.wikimedia.org/wiki/File:Sega_CD_Logo_(USA).svg",
+      "platform_logo_width": 384,
+      "platform_logo_position": [
+        30,
+        89
+      ]
     }
   ],
-  "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and device illustrations are retained in the XCF files."
+  "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed."
 }

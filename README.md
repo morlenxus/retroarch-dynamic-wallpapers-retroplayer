@@ -18,16 +18,23 @@ Titles use light lettering with a shadow for contrast over the artwork.
 playlists, with the same layered XCF and complete PNG export workflow. Their
 artwork is stored in a `Playlist collage` layer; all original backgrounds are removed.
 
-The 19 system wallpapers use generated close-ups inspired by their hardware:
+The 21 system wallpapers use generated close-ups inspired by their hardware:
 plastic grain, wood veneer, ventilation slots, buttons and other shell details.
 Arcade and electronic handheld playlists combine materials typical of their devices;
 DOS and Windows use period computer case details. These are artistic interpretations
-of hardware surfaces. Existing logos, device illustrations and frames remain separate
-layers above `System surface`. Original backgrounds are removed, and text contrast is
-adapted to light or dark materials. The manifest records each system's playlist and prompt.
-The top-right device cutouts are centered on translucent smoked-glass cards with
-rounded edges, a soft shadow and a subtle light in a platform-specific accent color.
-These elements remain editable in the `Device presentation` group, below `Device`.
+of hardware surfaces. Existing logos and frames remain separate
+layers above `System surface`. Original backgrounds are removed. Bright materials
+are dimmed with an editable `Evening shading` layer while retaining their original hue;
+already dark surfaces keep their existing lighting. All `Released` labels use warm-white
+lettering with a dark shadow. The manifest records each system's playlist, prompt and
+shading strength.
+Separate top-right device illustrations and their presentation cards are removed.
+
+Game Gear and Sega CD include original platform logo artwork on separate layers
+alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
+[assets/logos](assets/logos/README.md). Their release labels use the first Japanese
+hardware releases: [Game Gear (1990)](https://www.sega.jp/history/hard/gamegear/)
+and [Mega-CD (1991)](https://www.sega.jp/history/hard/mega-cd/index.html).
 
 ---
 

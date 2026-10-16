@@ -15,57 +15,54 @@ from gi.repository import Gegl, Gimp, Gio
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def integrate_device(image, asset):
-    """Place the existing device on an editable glass card in the header."""
-    device = next(l for l in image.get_layers() if l.get_name() == "Device")
+def remove_device(image):
+    """Remove the device cutout and its presentation card from hardware sources."""
     for layer in list(image.get_layers()):
-        if layer.get_name() == "Device presentation":
+        if layer.get_name() in ("Device", "Device presentation"):
             image.remove_layer(layer)
 
-    # Some source cutouts have oversized canvases and stray pixels outside the
-    # header. Measure the actual device alpha inside its intended header area.
-    image.select_item(Gimp.ChannelOps.REPLACE, device)
-    image.select_rectangle(Gimp.ChannelOps.INTERSECT, 1500, 40, 420, 190)
-    Gimp.Selection.sharpen(image)
-    _, nonempty, x1, y1, x2, y2 = Gimp.Selection.bounds(image)
-    Gimp.Selection.none(image)
-    if not nonempty:
-        raise RuntimeError(f"No device cutout in header: {asset['genre']}")
-    _, old_x, old_y = device.get_offsets()
-    width, height = x2 - x1, y2 - y1
-    device.resize(width + 16, height + 16, old_x - x1 + 8, old_y - y1 + 8)
-    device.set_offsets(round(1700 - width / 2) - 8, round(130 - height / 2) - 8)
 
-    group = Gimp.GroupLayer.new(image, "Device presentation")
-    image.insert_layer(group, None, image.get_item_position(device) + 1)
-    Gimp.context_push()
-    try:
-        def shape(name, color, opacity, x, y, w, h, radius=20, feather=0, ellipse=False):
-            layer = Gimp.Layer.new(image, name, 440, 240, Gimp.ImageType.RGBA_IMAGE,
-                                   opacity, Gimp.LayerMode.NORMAL)
-            image.insert_layer(layer, group, 0)
-            layer.set_offsets(1480, 20)
-            if ellipse:
-                image.select_ellipse(Gimp.ChannelOps.REPLACE, x, y, w, h)
-            else:
-                image.select_round_rectangle(Gimp.ChannelOps.REPLACE, x, y, w, h, radius, radius)
-            if feather:
-                Gimp.Selection.feather(image, feather)
-            Gimp.context_set_foreground(Gegl.Color.new(color))
-            layer.edit_fill(Gimp.FillType.FOREGROUND)
+def style_hardware(image, asset):
+    """Apply editable evening lighting and consistent, truly dark text shadows."""
+    remove_device(image)
+    for layer in list(image.get_layers()):
+        if layer.get_name() in ("Evening shading", "Released - shadow"):
+            image.remove_layer(layer)
+
+    opacity = asset.get("evening_opacity", 0)
+    if opacity:
+        surface = next(l for l in image.get_layers() if l.get_name() == "System surface")
+        shading = Gimp.Layer.new(image, "Evening shading", image.get_width(),
+                                 image.get_height(), Gimp.ImageType.RGBA_IMAGE,
+                                 opacity, Gimp.LayerMode.NORMAL)
+        image.insert_layer(shading, None, image.get_item_position(surface))
+        shading.set_blend_space(Gimp.LayerColorSpace.RGB_PERCEPTUAL)
+        shading.set_composite_space(Gimp.LayerColorSpace.RGB_PERCEPTUAL)
+        Gimp.context_push()
+        try:
             Gimp.Selection.none(image)
-            layer.set_visible(True)
+            Gimp.context_set_foreground(Gegl.Color.new("black"))
+            shading.edit_fill(Gimp.FillType.FOREGROUND)
+        finally:
+            Gimp.context_pop()
+        shading.set_visible(True)
 
-        shape("Soft shadow", "black", 40, 1510, 48, 380, 184, feather=10)
-        shape("Glass rim", "#dceaf4", 40, 1510, 38, 380, 184)
-        shape("Smoked glass", "#101923", 86, 1512, 40, 376, 180, radius=18)
-        accent = asset.get("device_accent", "#7db7ce")
-        shape("Ground light", accent, 26, 1580, 184, 240, 15, feather=9, ellipse=True)
-        shape("Accent line", accent, 65, 1645, 210, 110, 2, radius=1)
-    finally:
-        Gimp.Selection.none(image)
-        Gimp.context_pop()
-    group.set_visible(True)
+    title = next(l for l in image.get_layers() if l.get_name() == "Released")
+    markup = title.get_markup()
+    if markup:
+        # Inline foreground colors override TextLayer.set_color(), including on
+        # copied shadows. Keep sizing/formatting but remove those color overrides.
+        title.set_markup(re.sub(r'\s(?:foreground|color)="[^"]*"', "", markup))
+    title.set_color(Gegl.Color.new(asset.get("text_color", "#f4f2ed")))
+    title.set_visible(True)
+    shadow = title.copy()
+    image.insert_layer(shadow, None, image.get_item_position(title) + 1)
+    shadow.set_color(Gegl.Color.new(asset.get("shadow_color", "black")))
+    shadow.set_name("Released - shadow")
+    shadow.set_opacity(asset.get("shadow_opacity", 90))
+    _, x, y = title.get_offsets()
+    shadow.set_offsets(x + 2, y + 2)
+    shadow.set_visible(True)
 
 
 def export_png(image, path):
@@ -86,6 +83,47 @@ def export_png(image, path):
         raise RuntimeError(f"PNG export failed: {path}: {result.index(0)}")
 
 
+def apply_platform_logo(image, asset):
+    """Import the original platform artwork as a separate image layer."""
+    for layer in list(image.get_layers()):
+        if layer.get_name() in (
+            "Platform title", "Platform title - shadow", "Platform accent",
+            "Platform logo",
+        ):
+            image.remove_layer(layer)
+    logo = Gimp.file_load_layer(
+        Gimp.RunMode.NONINTERACTIVE, image,
+        Gio.File.new_for_path(str(ROOT / asset["platform_logo"])),
+    )
+    logo.set_name("Platform logo")
+    image.insert_layer(logo, None, 0)
+    width = asset.get("platform_logo_width", 384)
+    height = round(width * logo.get_height() / logo.get_width())
+    Gimp.context_push()
+    try:
+        Gimp.context_set_interpolation(Gimp.InterpolationType.NOHALO)
+        logo.scale(width, height, False)
+    finally:
+        Gimp.context_pop()
+    logo.set_offsets(*asset.get("platform_logo_position", [30, 89]))
+    logo.set_visible(True)
+
+
+def initialize_hardware_header(image, asset):
+    """Retain the template's SEGA wordmark and set the new release year."""
+    keep = set(asset["template_brand_layers"])
+    for layer in list(image.get_layers()):
+        if layer.get_name().startswith("Logo") and layer.get_name() not in keep:
+            image.remove_layer(layer)
+    released = next(l for l in image.get_layers() if l.get_name() == "Released")
+    markup = released.get_markup()
+    text = f"Released: {asset['release_year']}"
+    if markup:
+        released.set_markup(re.sub(r"Released: [^<]+", text, markup))
+    else:
+        released.set_text(text)
+
+
 def update(genre=None):
     manifest = json.loads((ROOT / "backgrounds/generation-manifest.json").read_text())
     for asset in manifest["assets"]:
@@ -102,10 +140,16 @@ def update(genre=None):
         background.delete()
 
         xcf_path = ROOT / asset["xcf"]
+        is_new = not xcf_path.exists()
+        source_path = ROOT / asset["template_xcf"] if is_new else xcf_path
         image = Gimp.file_load(
-            Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(xcf_path))
+            Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(source_path))
         )
         image.undo_disable()
+        if is_new:
+            initialize_hardware_header(image, asset)
+        if asset.get("platform_logo"):
+            apply_platform_logo(image, asset)
         original_layers = list(image.get_layers())
         for layer in original_layers:
             if layer.get_name() in (
@@ -162,8 +206,8 @@ def update(genre=None):
                 title.set_markup(re.sub(r'\s(?:foreground|color)="[^"]*"', "", title.get_markup()))
             title.set_color(Gegl.Color.new(asset.get("text_color", "white")))
 
-        if asset.get("device_presentation"):
-            integrate_device(image, asset)
+        if asset.get("design") == "hardware-surface":
+            style_hardware(image, asset)
 
         if not Gimp.file_save(
             Gimp.RunMode.NONINTERACTIVE, image, Gio.File.new_for_path(str(xcf_path))
