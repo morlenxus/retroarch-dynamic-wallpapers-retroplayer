@@ -35,6 +35,23 @@ the genre wallpapers. Their single-line headings remain `ALL GAMES` and
 `MULTIPLAYER GAMES`, without a genre caption. The manifest records
 `playlist_dimming_opacity`, `heading_title` and `heading_subtitle`.
 
+`- Netplay Games` uses a generated illustration based on three user-supplied
+living-room photographs. Two players in separate homes, each with a television
+and controller, occupy spaces separated by a softly glowing vertical cyan line
+from the top to the bottom of the image. The enlarged right TV balances the left; the globe and central solid
+divider are removed. The rooms retain the
+wall-mounted TV, black lowboard and LED lighting of one setup and the standing
+TV with walnut storage cabinets of the other. Both screens show illustrated
+classic Game Boy Tennis gameplay in olive-green monochrome from opposite
+player viewpoints, with swapped player sprites, scores and ball positions,
+conveying competition over the internet. The source playlist
+contains 48 entries; this illustration emphasizes remote play rather than a character
+collage. Its layered XCF and PNG export use the same header, frames and editable
+55% dimming as the other collections. Cabinet cubbies contain illustrated retro
+game packaging generated from the complete 48-title playlist; small cover text
+and an exact one-to-one correspondence are not independently verified. The full
+shelf title list and generation/edit prompts are recorded in the manifest.
+
 The 21 system wallpapers use generated close-ups inspired by their hardware:
 plastic grain, wood veneer, ventilation slots, buttons and other shell details.
 Arcade and electronic handheld playlists combine materials typical of their devices;

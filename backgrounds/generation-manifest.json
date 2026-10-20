@@ -220,6 +220,122 @@
       "heading_subtitle": ""
     },
     {
+      "genre": "Netplay Games",
+      "playlist": "/tmp/- Netplay Games.lpl",
+      "playlist_items": 48,
+      "games": "Tennis (Nintendo Game Boy, from the supplied Netplay playlist)",
+      "prompt": "Use case: compositing. Create a new 1920x1080 landscape 16:9 Netplay gaming wallpaper BASED ON THE THREE PROVIDED ROOM PHOTOS, preserving recognizable real furniture and television setups rather than inventing unrelated generic rooms. Input images 1 and 3 are two views of the SAME modern living room: wall-mounted flat-screen TV on a pale gray wall, soft pink-white LED backlighting, long low glossy BLACK cabinet with glass top, centered black soundbar, small candles, parquet wood floor, gray sofa, black glass coffee table and speckled gray-white rug; image 3 adds the black vase of white flowers and plant leaves. Input image 2 shows the OTHER separate home: TV standing on a long dark WALNUT wood entertainment cabinet, matching stepped tall wall/storage units including a glass-front display cabinet with glassware, pale walls and warm wood floor. Recreate these two SPECIFIC homes in a unified wide composition, modern black-cabinet home on the LEFT and walnut-cabinet home on the RIGHT, clearly geographically separate spaces rather than one shared living room. Keep the cabinets, wall colors, TV mounting versus standing arrangement and recognizable furniture proportions faithful to the references. Add one anonymous adult gamer in each home, seen from the back or three-quarter rear, sitting comfortably and holding a gamepad facing their own television; no need to invent prominent face details. The people seen ON THE ORIGINAL TV BROADCASTS are NOT the gamers: replace all original TV broadcasts with the SAME fictional cheerful retro kart-racing game seen from two opposing player perspectives, simple red and blue cars, no recognizable licensed characters, no writing. Between the rooms place an elegant luminous BLUE EARTH GLOBE, with cyan connection arcs clearly linking each TV through the globe to communicate online competitive play from different homes. Warm evening room lighting, cool blue screen light, tasteful pink LED accent retained in modern room. Style: richly detailed polished painterly digital illustration with believable room geometry and tactile materials, consistent with a premium retro gaming wallpaper; not a contact sheet, not three framed photographs. Wide unified cinematic composition. Keep upper-left calm gray/dark wall for a later heading; leave the far-left menu region as quiet as practical, keep faces and essential game-screen content away from that overlay region. Preserve visible full TVs, both controllers and enough of each room to recognize the supplied references. No existing television presenters, no broadcast text, no watermarks, no captions, no logos, no UI, no borders or title. Do not bake in a dark overlay; 55% dimming is added in GIMP later.",
+      "generation_status": "complete",
+      "background_origin": "Built-in image_gen: illustrated composition based on three user-supplied living-room photographs",
+      "background": "backgrounds/- Netplay Games.png",
+      "xcf": "src/- Netplay Games.xcf",
+      "export": "dist/- Netplay Games.png",
+      "template_xcf": "src/- Multiplayer Games.xcf",
+      "collage_layer": "Playlist collage",
+      "playlist_dimming_opacity": 55,
+      "heading_title": "NETPLAY GAMES",
+      "heading_subtitle": "",
+      "description": "Two remote players in photo-inspired rooms separated by a vertical cyan light divider. The two televisions show illustrated monochrome classic Game Boy Tennis from opposite baselines: light-shirted player nearest on the left screen, dark-shirted player nearest on the right, swapped score order and corresponding opposite ball placement. The right TV remains large; the left player's legs remain hidden and cabinet game boxes are retained.",
+      "reference_images": [
+        "/tmp/IMG-20230916-WA0139.jpg",
+        "/tmp/IMG-20210626-WA0018.jpg",
+        "/tmp/IMG-20260620-WA0017.jpg"
+      ],
+      "reference_roles": [
+        "Modern living room, wall-mounted television and black lowboard",
+        "Other living room, standing television and walnut display/storage units",
+        "Second view of modern living room, soundbar, candles, flowers and rug"
+      ],
+      "edits": [
+        {
+          "generator": "Built-in image_gen",
+          "description": "Hide the left player's lower body behind the foreground sofa to remove intersection with the coffee table.",
+          "prompt": "Make ONE localized correction to this existing 1920x1080 landscape illustration. In the LOWER LEFT, remove the left player's visible beige-trousered lower body, raised knee, legs and feet, which incorrectly intersect the glass coffee table. Conceal his seated lower body completely behind the foreground gray sofa upholstery/cushions, extending the sofa naturally only where necessary. Keep his head, shoulders, black hoodie upper torso, both forearms, hands and game controller unchanged and clearly visible. Reconstruct a clean plausible boundary between the gray sofa, the black glass coffee table and the patterned rug. Preserve the coffee table's shape, reflective glass surface, black mug and snack bowl without any body parts passing through them. This is a furniture occlusion/anatomy correction, no injury: the player remains seated naturally, with the lower body simply out of view behind the sofa. Preserve ALL other parts of the image: the right player and room, both televisions and their game images, both cabinets and furnishings, globe, glowing internet connections, colors, lighting, style, camera framing and 16:9 dimensions. Change only the small lower-left sofa/player/table area. No text, no new objects, no watermark, no dark overlay."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Replace kart-racing imagery on both televisions with classic Game Boy Tetris gameplay and update screen-light reflections.",
+          "prompt": "Make a precise localized edit to this existing 1920x1080 landscape Netplay wallpaper: replace ONLY the game content inside BOTH television screens. Both players are now playing TETRIS for the ORIGINAL CLASSIC GAME BOY, which is in the user's supplied playlist. Show unmistakable authentic-looking early Game Boy Tetris gameplay in four monochrome olive-green LCD shades: a tall rectangular ten-column playfield with stacked tetrominoes near the bottom and one falling four-block piece, simple chunky square pixel art, minimal tiny score/next-piece area to the side. Show two different board states to imply competitive remote play. Preserve the original Game Boy screen's 160:144 proportions within each television, with dark vertical pillarbox areas as necessary; do not stretch the game board to widescreen. No colorful blocks, no kart-racing scenery, no modern Tetris graphics. Fit each screen replacement to the television's existing perspective, edges and slight reflections. Adjust only very local screen-light reflections on the glass coffee table and player's hands if necessary to reflect the new subdued green screen glow. Keep EVERYTHING ELSE unchanged: both players, their hands/controllers and clothes, LEFT PLAYER'S LOWER BODY COMPLETELY HIDDEN BEHIND THE SOFA (do not restore his legs), both rooms, furniture, televisions' exterior frames, pink LED backlight, globe and cyan connection arcs, colors, lighting and composition. The cyan internet arcs may remain visible in front of the new screen contents. No extra titles, captions, logos, watermark or interface outside the television screens; tiny game HUD marks inside the game are fine. Preserve full 16:9 image. Do not add a dark overlay; dimming remains a separate layer."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Fill existing cabinet cubbies with illustrated retro game packaging using all 48 playlist titles as the supplied collection reference.",
+          "prompt": "Use case: precise-object-edit. Edit the supplied Netplay living-room illustration by ADDING THE COMPLETE 48-GAME COLLECTION as physical retro game boxes standing neatly INSIDE the EXISTING cabinet compartments. Keep the existing room geometry, screen contents, people and composition. The games are from NES, SNES, classic Game Boy and Game Boy Color. Use attractive era-appropriate miniature cartridge/cardboard retail boxes, with colorful illustrated cover art and identifiable short game-title spines; do not use modern unrelated games. Place 24 slim upright boxes in THREE distinct groups of EIGHT in the open horizontal cubbies of the BLACK TV LOWBOARD on the LEFT (titles 1-24). Place 12 boxes in TWO groups of SIX in the open cubbies beneath the RIGHT television, around the existing electronics without hiding them (titles 25-36). Place the final 12 boxes in TWO groups of SIX behind the GLASS display cabinet beside the RIGHT television, replacing glassware on two shelves as necessary (titles 37-48). Exactly one box per game, 48 TOTAL, no duplicates or extras. Each box should be individually distinguishable by a small gap and a different cover/spine. The shelves should look like a carefully arranged physical games collection, with realistic perspective, contact shadows and glass reflections. Fit inside shelf openings, no floating boxes and no boxes on the floor, TV screens or tables. Full title legibility is secondary to identifiable miniature game packaging at this camera distance; abbreviate long spines naturally, but use the specified games and preserve their numbering/order in the collection without printing numbers on the image.\nThe COMPLETE list, in order, is:\n1. Bomberman\n2. Double Dragon 2 - The Revenge\n3. Gradius\n4. Kung Fu\n5. Lode Runner\n6. New Ghostbusters 2\n7. Nintendo World Cup\n8. Super Mario Bros. 1\n9. Super Mario Bros. 3\n10. Captain America and The Avengers\n11. Donkey Kong Country 1\n12. FIFA Soccer '96\n13. Final Fight 2\n14. International Superstar Soccer Deluxe\n15. Jurassic Park Part 2 - The Chaos Continues\n16. Mortal Kombat 1\n17. Mortal Kombat 2\n18. Mortal Kombat 3 - Ultimate\n19. Secret of Mana\n20. Sensible Soccer - European Champions\n21. Spider-Man and Venom - Separation Anxiety\n22. Street Fighter Alpha 2\n23. Street Fighter II Turbo\n24. Super Bomberman 1\n25. Super Bomberman 5\n26. Super Mario All-Stars\n27. Super Mario Kart\n28. Super Mario World 1\n29. Super Probotector - Alien Rebels\n30. Teenage Mutant Hero Turtles 4 - Turtles in Time\n31. Tetris Attack\n32. Worms\n33. Zombies Ate My Neighbors\n34. Dr. Mario\n35. F-1 Race\n36. Motocross Maniacs 1\n37. Pokemon - Blaue Edition\n38. Pokemon - Rote Edition\n39. Tennis\n40. Tetris\n41. Bundesliga Stars 2001\n42. Dragon Quest Monsters\n43. Motocross Maniacs 2\n44. Pokemon - Gelbe Edition\n45. Pokemon - Goldene Edition\n46. Pokemon - Kristall Edition\n47. Pokemon - Silberne Edition\n48. Worms Armageddon\nPreserve ALL OTHER IMAGE DETAILS: both televisions must keep their existing GREEN MONOCHROME CLASSIC GAME BOY TETRIS and black pillarboxes; left player's lower body stays fully concealed by sofa, preserve both players, controllers, coffee tables, mugs and snack bowls; preserve globe and cyan connections, pink TV backlight, original furniture designs, room layout, wall-mounted left TV and standing right TV. Preserve the existing wide 16:9 camera view, lighting, colors and rendering style. Only add the game boxes inside the cabinet cubbies and replace the specified glassware. No collage panels, no labels outside game packaging, no titles, watermark or global dark overlay."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Enlarge the right television, remove the globe and solid central divider, and blend both rooms through a flowing cyan connection ribbon.",
+          "prompt": "Edit this existing Netplay wallpaper with exactly these changes. 1. ENLARGE THE RIGHT PLAYER'S TELEVISION substantially, about 40 percent wider and taller, so its apparent screen area is comparable to the large television on the left. Keep it standing realistically on the walnut lowboard, expand it mainly upward and toward the middle; keep the right player's head and hands fully visible. Keep its green monochrome classic Game Boy TETRIS gameplay, black pillarbox areas and correct screen perspective. 2. REMOVE THE EARTH GLOBE COMPLETELY, leaving no planet, circular halo or spherical object. 3. Make the transition between the two geographically separate homes MUCH MORE FLUID. Remove the conspicuous central solid vertical wall/pillar and hard floor/rug seam. Blend their wall colors, atmospheric shadows and floor perspective into a soft, organic cinematic transition while retaining distinct recognizable homes on either side. Use a single elegant glowing CYAN-BLUE LIGHT RIBBON, gently curving in an S shape through the central transition, with soft blue glow and a few particles, to suggest the internet connection and separate the spaces softly. The ribbon should flow between the two TV setups, no hard straight vertical divider, no new globe, no diagram or labels. Keep the central area uncluttered. Preserve everything else closely: both players and controllers, left player's lower body fully concealed by sofa, both Tetris screens, the left wall-mounted TV size and pink LED backlight, recognizable black lowboard and walnut cabinets from the reference rooms, game-box collection inside all cabinet shelves, sofas, coffee tables, snacks, lighting, colors and polished illustrative style. The enlarged right TV may naturally occlude part of the cabinet behind it but don't remove the game collection. Keep full 1920x1080 16:9 landscape composition and the upper-left header area usable. No title, labels, watermark, added borders or global dark overlay."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Replace the horizontal connection with a vertical cyan room divider and replace both television images and table reflection with classic Game Boy Tennis.",
+          "prompt": "Edit this existing 1920x1080 Netplay wallpaper with TWO specific changes. FIRST: replace the horizontal cyan S-shaped link between the televisions with a VERTICAL BLUE DIVIDING LIGHT LINE between the two rooms. The line should run continuously from the TOP EDGE to the BOTTOM EDGE near the center of the image (roughly x=960 of 1920), mostly upright with gentle organic waviness, a slim bright cyan core, soft blue glow and a few restrained particles. It separates the left player's home from the right player's home, rather than linking the TV screens horizontally. Blend the neighboring wall/floor colors softly into this vertical light boundary. No physical wall, hard pillar, globe, planet or round halo. SECOND: replace BOTH television screen images with gameplay inspired by TENNIS for the original Nintendo GAME BOY (1989). Show recognizable classic monochrome four-shade olive-green pixel graphics: a perspective tennis court with a clearly visible horizontal net across the middle, court boundary and service lines, one tiny racket-holding tennis player near the bottom baseline and the opponent at the far end, a small ball and compact simple scoreboard. Both televisions show the same two-player tennis match from their respective player views, like a classic handheld tennis game. This is Game Boy Tennis, NOT Tetris, no falling blocks and no Tetris score/level/lines layout. Keep original Game Boy 160:144 picture proportions with black pillarbox bars on both wide TVs. Match screen perspective and update the left glass table's reflected game picture from blocks to the green tennis court. Preserve all other details: enlarged RIGHT TV stays comparable in size to the LEFT TV; left wall-mounted TV, black lowboard, pink backlight and room furniture; walnut cabinets and game boxes inside all shelves; both people/controllers and their poses, left player's legs fully hidden behind the sofa, coffee tables, mugs, snacks, warm evening ambiance and illustrative rendering. No new writing outside the in-game scoreboard, no wallpaper title, captions, logos, borders, watermark or global dimming overlay. Keep 16:9 landscape composition."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Show opposing player viewpoints of the same Tennis rally, swapping foreground players and score order.",
+          "prompt": "Make a narrowly localized edit to the TENNIS GAME PICTURES INSIDE THE TWO TV SCREENS of this Netplay illustration. They must depict the SAME Game Boy Tennis match from OPPOSITE BASELINES, so each real-world gamer sees their own in-game character in the foreground facing the opponent at the far baseline. Do NOT use two identical screenshots. Keep the LEFT television as player 1's viewpoint: light-shirted player 1 at the near bottom baseline slightly LEFT of center, dark-shirted player 2 at far top baseline slightly RIGHT of center, ball on the near player's right side of the court, and compact scoreboard showing 15 for own player and 30 for opponent. Make the RIGHT television unmistakably player 2's REVERSE-COURT viewpoint: dark-shirted player 2 in the near bottom foreground slightly LEFT of center and light-shirted player 1 at the far top baseline slightly RIGHT of center, seen from the other end; the SAME ball is therefore in the FAR half and LEFT side of the right-screen court. Swap score order on this right screen to own player 30, opponent 15. All sprites, net, court and scoreboard stay upright and correctly rendered: this is an opposing camera view around the court, NOT an upside-down screen, NOT just mirrored text. Retain the classic Game Boy four-shade olive-green pixel style and black side bars. Preserve TV bezels, screen perspective and proportions. Update the left glass table's reflection to agree with the adjusted left screen if needed. Preserve EVERYTHING OUTSIDE THE SCREEN CONTENTS and their immediate reflection: vertical cyan divider continuously from top to bottom, both rooms and furniture, enlarged right TV, all cabinet game boxes, both people/controllers and poses, left lower body hidden behind sofa, colors, pink LED backlight and overall 16:9 composition. No new globe, no extra labels or titles, no global darkening."
+        },
+        {
+          "generator": "Built-in image_gen",
+          "description": "Correct the right-screen ball into the far-left court half to match the opposing view.",
+          "prompt": "Make ONE tiny local correction to this image. On the RIGHT television ONLY, the small tennis ball currently appears BELOW the net on the left side of the near court. Remove that ball and place a single identical small Game Boy pixel tennis ball ABOVE THE NET in the FAR HALF of the court, left of the center service line, approximately midway between the net and the far baseline. This is necessary because the right screen is the opposite player's camera view of the SAME rally shown on the left. Right-screen net is the black horizontal mesh: the corrected ball MUST be above that mesh, not below it. Do not move any players or change the score. Left TV stays exactly unchanged, with its ball below the net and to the right. Keep the right near player dark-shirted and far player light-shirted, scoreboard 30 then 15. Preserve EVERYTHING ELSE: both televisions, all other court graphics, furniture, people, cabinet game boxes, vertical blue light divider, lighting, image framing and 16:9 aspect ratio. No new objects or writing, no global darkening."
+        }
+      ],
+      "shelf_games": [
+        "Bomberman",
+        "Double Dragon 2 - The Revenge",
+        "Gradius",
+        "Kung Fu",
+        "Lode Runner",
+        "New Ghostbusters 2",
+        "Nintendo World Cup",
+        "Super Mario Bros. 1",
+        "Super Mario Bros. 3",
+        "Captain America and The Avengers",
+        "Donkey Kong Country 1",
+        "FIFA Soccer '96",
+        "Final Fight 2",
+        "International Superstar Soccer Deluxe",
+        "Jurassic Park Part 2 - The Chaos Continues",
+        "Mortal Kombat 1",
+        "Mortal Kombat 2",
+        "Mortal Kombat 3 - Ultimate",
+        "Secret of Mana",
+        "Sensible Soccer - European Champions",
+        "Spider-Man and Venom - Separation Anxiety",
+        "Street Fighter Alpha 2",
+        "Street Fighter II Turbo",
+        "Super Bomberman 1",
+        "Super Bomberman 5",
+        "Super Mario All-Stars",
+        "Super Mario Kart",
+        "Super Mario World 1",
+        "Super Probotector - Alien Rebels",
+        "Teenage Mutant Hero Turtles 4 - Turtles in Time",
+        "Tetris Attack",
+        "Worms",
+        "Zombies Ate My Neighbors",
+        "Dr. Mario",
+        "F-1 Race",
+        "Motocross Maniacs 1",
+        "Pokemon - Blaue Edition",
+        "Pokemon - Rote Edition",
+        "Tennis",
+        "Tetris",
+        "Bundesliga Stars 2001",
+        "Dragon Quest Monsters",
+        "Motocross Maniacs 2",
+        "Pokemon - Gelbe Edition",
+        "Pokemon - Goldene Edition",
+        "Pokemon - Kristall Edition",
+        "Pokemon - Silberne Edition",
+        "Worms Armageddon"
+      ],
+      "shelf_art_note": "The complete 48-title playlist was supplied to the image generator. Miniature packaging is illustrative; individual title accuracy and exact one-to-one box counts are not verified."
+    },
+    {
       "genre": "MAME",
       "playlist": "/tmp/playlists/Arcade Machines.lpl",
       "design": "hardware-surface",

@@ -223,7 +223,7 @@ def update(genre=None):
             Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(source_path))
         )
         image.undo_disable()
-        if is_new:
+        if is_new and asset.get("design") == "hardware-surface":
             initialize_hardware_header(image, asset)
         if asset.get("platform_logo"):
             apply_platform_logo(image, asset)
