@@ -1,0 +1,135 @@
+{
+  "generator": "Built-in image_gen",
+  "size": [
+    256,
+    256
+  ],
+  "format": "PNG RGBA",
+  "background": "transparent",
+  "export": "Trim transparent padding; preserve aspect ratio; fit within 224x224 and center on a transparent 256x256 canvas using ImageMagick.",
+  "note": "Generated illustrations inspired by the supplied playlists. Platformer uses Superfrog after Mario generation was rejected by the image service. No original game sprites were extracted.",
+  "assets": [
+    {
+      "file": "- Games List.png",
+      "playlist": "- Games List.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: replacement Games List icon for the RetroArch horizontal menu, final use 256x256 PNG. Input image: reference for illustration style only, replace its objects completely. Subject: Exactly three recognizable retro gaming storage media arranged as a compact overlapping fan: a blue 3.5-inch floppy disk with a silver metal shutter and blank ivory label on the left, one gray classic game cartridge with ridged plastic casing and a small colorful label in the middle behind, and one silver CD-ROM on the right foreground with a clear circular center hole and subtle rainbow reflections. Keep each object clearly identifiable; do not obscure the floppy shutter or the disc hole. No controller. Style: polished colorful retro videogame illustration matching the reference, clean bold dark contours with a narrow warm-white outer edge, gently shaded rounded forms, crisp simplified details readable at small menu size. Composition: centered compact nearly square unified motif, entire trio visible, 10% transparent margin. Genuine transparent background including the CD center hole, no scenery, no badge, no words, no lettering, no watermark."
+    },
+    {
+      "file": "- Multiplayer Games.png",
+      "playlist": "- Multiplayer Games.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: Two classic retro gamepads angled toward each other, one red and one blue, their short cables joining in a friendly loop, representing local two-player gaming. Exactly two gamepads, clearly separated."
+    },
+    {
+      "file": "- Netplay Games.png",
+      "playlist": "- Netplay Games.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: replacement Netplay Games icon for RetroArch horizontal menu, final 256x256 transparent PNG. Input image is reference for motif and illustration style, redesign composition. Create a bold compact near-square online gaming icon that fills both width and height of the available icon slot: a LARGE blue globe with bright green continents dominates the upper center, with exactly two LARGE retro controllers overlapping the globe's lower left and lower right edges. Controllers have gray casings, dark directional pads, colorful buttons, and angle slightly outward. A short thick golden connection arc with two small luminous endpoints curves around the globe to imply worldwide online play. The globe must be much larger than in reference; controllers substantial and easily readable. Motif overall bounding box approximately equal width and height, dense cohesive triangular composition, no long thin horizontal strip. Polished colorful retro videogame illustration, bold clean dark contours with thin warm-white outer edge, gentle shading, simplified details readable at small size. Entire motif visible with 6% safe transparent margin, centered square canvas. Genuine transparent background, no scene, no badge, no text, no watermark."
+    },
+    {
+      "file": "Z Genre Action.png",
+      "playlist": "Z Genre Action.lpl",
+      "prompt": "Use case: stylized-concept. Redesign this RetroArch Action menu icon to communicate FAST DIRECT ATTACK rather than exploration. Simon Belmont from Super Castlevania IV, recognizable long blond hair, headband, brown leather tunic and boots, in a low forceful forward attacking lunge. His torso twists as he lashes a short visible chain whip toward the upper right; the tip ends in one bold golden comic impact burst. Two short thick orange speed accents behind his back emphasize explosive motion. No opponent. Make the character large and the whip compact so his silhouette stays nearly square and fills the icon. His face is focused on the strike. Not a climbing pose, no architecture, no map, no exploration props. Polished colorful retro game cartoon illustration matching reference: bold dark contours with thin ivory outer edge, gentle shading and simplified readable forms for 256x256. Entire body, whip and impact accent fully visible inside safe transparent margins. Genuine transparent background, no scene, no ground plane, no badge, no text or watermark.",
+      "motif": "Simon Belmont performing a forceful whip attack with speed accents and an impact burst: immediate combat and reaction."
+    },
+    {
+      "file": "Z Genre Action-Adventure.png",
+      "playlist": "Z Genre Action-Adventure.lpl",
+      "prompt": "Use case: stylized-concept. Redesign this RetroArch Action-Adventure menu icon to communicate EXPLORATION AND DISCOVERY clearly distinct from an attacking action hero. Adult classic Lara Croft, recognizable long brown braid, turquoise adventure top, brown shorts, boots, gloves and small backpack. She stands in a calm alert three-quarter adventurer pose, holding a LARGE unfolded ivory treasure map at chest level with both hands, studying its simple dark winding path and red X symbol (no words). Beside and slightly behind her is ONE small ancient carved stone doorway fragment with a golden keyhole-shaped recess, suggesting finding a route and unlocking a ruin. Lara is dominant; map is large enough to recognize at tiny size, doorway a compact supporting shape. No jumping, no attacking, no visible guns. Full figure, boots visible. Compact nearly square silhouette, clearly separated map, character and doorway. Polished colorful retro game cartoon illustration matching reference: bold dark contours with thin ivory outer edge, gentle shading, simplified readable details for 256x256. Genuine transparent background, safe margins, no wider scenery, no ground plane, no badge, no words, no watermark.",
+      "motif": "Lara Croft studying a large map beside a locked ancient doorway: exploration, route finding and unlocking progress."
+    },
+    {
+      "file": "Z Genre Beat 'em Up.png",
+      "playlist": "Z Genre Beat 'em Up.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: RetroArch Beat em Up genre menu icon, final 256x256 transparent PNG. Replace the reference's lone fighter composition with an unmistakable ONE HERO VERSUS MULTIPLE ENEMIES side-scrolling brawler situation. Exactly three characters: one large green Teenage Mutant Ninja Turtle with orange eye mask and brown shell at center, punching toward a smaller purple-clad Foot Clan ninja on the right, while a second smaller purple Foot Clan ninja approaches from the left. All three full bodies visible, spaced distinct readable silhouettes, the central turtle clearly outnumbered. Enemies use simple purple uniforms and black face coverings. Dynamic playful arcade brawl, no weapons, no injuries. Compact near-square arrangement, bold simplified forms with few details, visually legible at tiny menu size. Polished colorful retro cartoon illustration, thick clean dark outlines and thin ivory outer edge matching reference, gentle shading. Genuine transparent background between and around characters, no scenery, no ground plane, no badge, no text, no watermark. Safe margin around all figures.",
+      "motif": "One turtle hero fighting two Foot Clan ninjas: one versus many, representing a scrolling brawler."
+    },
+    {
+      "file": "Z Genre Fighting.png",
+      "playlist": "Z Genre Fighting.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: RetroArch Fighting genre menu icon, final 256x256 transparent PNG. Replace the reference's lone fighter composition with an unmistakable ONE-ON-ONE DUEL: exactly two equally large Street Fighter characters facing one another in mirrored side-view martial arts stances. Ryu on the left in white karate gi, red headband and red gloves, Ken on the right in red karate gi, blond hair and dark gloves. Both full bodies visible with fists raised, looking directly toward each other across a small clear central gap, equally matched opponents. Strong white versus red color separation, each character recognizable, compact near-square composition with large readable silhouettes. Polished colorful retro cartoon illustration, thick clean dark outlines and thin ivory outer edge matching reference, gentle shading, simplified details readable at tiny menu size. Genuine transparent background, no arena, no ground plane, no badge, no letters including no VS, no health bars, no watermark. Safe margin around both figures.",
+      "motif": "Ryu and Ken facing each other as equal opponents: one-on-one fighting duel."
+    },
+    {
+      "file": "Z Genre Maze.png",
+      "playlist": "Z Genre Maze.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: A compact square blue arcade labyrinth made of thick rounded blue walls with an obvious winding path of golden pellets. A glossy black Bomberman-style round cartoon bomb with a tiny orange fuse spark sits at one corner. Simple chunky maze symbol, no characters."
+    },
+    {
+      "file": "Z Genre Paddle.png",
+      "playlist": "Z Genre Paddle.lpl",
+      "prompt": "Create exactly one colorful retro videogame menu icon on genuinely transparent background, bold dark outlines and fine ivory outer edge, softly shaded cartoon forms, crisp simple details readable at 256x256. Center full motif with generous transparent margin. Square composition. No background scene, no badge, no words or watermark. Subject: A blue horizontal Breakout paddle bouncing a white ball up toward six colorful bricks, compact stacked motif."
+    },
+    {
+      "file": "Z Genre Platformer.png",
+      "playlist": "Z Genre Platformer.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: Superfrog, a cheerful bright green cartoon frog superhero wearing a flowing red cape and red boots, in an unmistakable high jumping pose with one fist raised, above one small floating golden platform block. Full body, lively classic Amiga platform game mascot, no ground or scenery."
+    },
+    {
+      "file": "Z Genre Point-and-Click-Adventure.png",
+      "playlist": "Z Genre Point-and-Click-Adventure.lpl",
+      "prompt": "Create exactly one colorful retro videogame menu icon on genuinely transparent background, bold dark outlines and fine ivory outer edge, softly shaded cartoon forms, crisp simple details readable at 256x256. Center full motif with generous transparent margin. Square composition. No background scene, no badge, no words or watermark. Subject: Purple Day of the Tentacle character with green spots and small arms, next to large white classic mouse pointer arrow."
+    },
+    {
+      "file": "Z Genre Puzzle.png",
+      "playlist": "Z Genre Puzzle.lpl",
+      "prompt": "Create exactly one colorful retro videogame menu icon on genuinely transparent background, bold dark outlines and fine ivory outer edge, softly shaded cartoon forms, crisp simple details readable at 256x256. Center full motif with generous transparent margin. Square composition. No background scene, no badge, no words or watermark. Subject: Four colorful chunky Tetris tetrominoes fitting into compact near-square block, one piece slightly above matching gap."
+    },
+    {
+      "file": "Z Genre Quiz.png",
+      "playlist": "Z Genre Quiz.lpl",
+      "prompt": "Create exactly one colorful retro videogame menu icon on genuinely transparent background, bold dark outlines and fine ivory outer edge, softly shaded cartoon forms, crisp simple details readable at 256x256. Center full motif with generous transparent margin. Square composition. No background scene, no badge, no words or watermark. Subject: A chunky golden question mark above a small round blue quiz buzzer with red button."
+    },
+    {
+      "file": "Z Genre Racing.png",
+      "playlist": "Z Genre Racing.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: A classic bright red Out Run-style open-top sports car in dynamic front three-quarter view, two large clear headlights, dark windshield and silver wheels. Entire car visible, no road, no people, no writing."
+    },
+    {
+      "file": "Z Genre Role-Playing Game.png",
+      "playlist": "Z Genre Role-Playing Game.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: A blue fantasy adventure shield with golden edging and a bright silver sword crossing behind it, a small red faceted gem on the shield, classic retro RPG equipment inventory icon. No characters, no lettering."
+    },
+    {
+      "file": "Z Genre Simulation.png",
+      "playlist": "Z Genre Simulation.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: A friendly compact gray F-18 flight-simulator jet, in three-quarter view banking upward, blue cockpit canopy, twin tail fins and short blue exhaust accents, no weapons, no ground or sky."
+    },
+    {
+      "file": "Z Genre Sports.png",
+      "playlist": "Z Genre Sports.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: One large black-and-white football with a small wood tennis racket and yellow tennis ball behind its upper right, compact unified sports symbol, clear bold shapes."
+    },
+    {
+      "file": "Z Genre Strategy.png",
+      "playlist": "Z Genre Strategy.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: replacement Strategy genre icon for RetroArch horizontal menu, final 256x256 transparent PNG. Subject: an iconic Command and Conquer Tiberian Dawn-inspired olive green GDI battle tank, chunky tracked hull, angular armored turret and long cannon angled toward upper right, in elevated three-quarter isometric view like an RTS unit. Four thick neon-green right-angle selection brackets frame the tank closely, plus a short clear green unit health bar above it, communicating player command and tactical selection. Three small luminous green Tiberium crystals beside one track give a clear Command and Conquer reference. One compact near-square unified motif; tank dominates and is fully visible, no terrain tile, no battlefield, no explosion. Polished colorful retro videogame cartoon icon matching the reference's clean dark contours, thin warm-white outer edge and softly shaded simplified forms readable at tiny menu size. Reference is style only, replace chess motif completely. Genuine transparent background around and inside selection brackets, safe margin, no words, no letters, no numbers, no enclosing badge, no watermark.",
+      "motif": "Command and Conquer Tiberian Dawn-inspired tank with green unit selection brackets, health bar and Tiberium crystals."
+    },
+    {
+      "file": "Z Genre Survival Horror.png",
+      "playlist": "Z Genre Survival Horror.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: replacement Survival Horror genre icon for RetroArch horizontal menu, final 256x256 transparent PNG. Subject: a recognizable classic Resident Evil 2-inspired zombie police officer bust: pale gray-green face, vacant milky eyes, gaunt cheeks and dark eye sockets, messy dark hair, worn dark blue police shirt, one hand reaching toward the viewer. Behind the head at upper right is a small unmistakable red-and-white eight-segment Umbrella Corporation umbrella emblem, unobscured enough to recognize. Suspenseful eerie videogame monster icon, stylized comic illustration, no blood, no exposed tissue, no open wounds, no gore. Clear bold face and reaching hand, compact near-square composition, cropped deliberately at mid chest; entire head and fingers visible with safe margin. Polished colorful retro videogame cartoon icon matching reference's clean dark contours, thin warm-white outer edge and gently shaded simplified forms readable at tiny menu size. Reference is style only, replace flashlight and key completely. Genuine transparent background, no room or scenery, no words or letters, no caption, no watermark.",
+      "motif": "Resident Evil 2-inspired zombie police officer with reaching hand and red-and-white Umbrella emblem."
+    },
+    {
+      "file": "Z Genre System.png",
+      "playlist": "Z Genre System.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: one RetroArch horizontal menu icon, final use 256x256 PNG. Style: polished colorful retro videogame illustration, bold clean dark outlines with a narrow warm-white outer edge for readability on dark and light wallpapers, gently shaded rounded forms, crisp simplified details, unified collectible game icon style. Composition: one centered compact isolated motif, fills about 82% of square canvas with safe transparent margin on all sides. Genuine transparent background. No scenery, no enclosing badge, no words, no labels, no watermark. Generate a square transparent image. Subject: A classic beige 1990s desktop computer with CRT monitor displaying a simple blue workbench desktop with a few tiny colored square icons, matching compact keyboard in front and one blue floppy disk leaning alongside. Compact readable unified computer motif, no words or text on screen."
+    },
+    {
+      "file": "Z Genre Action-Shooter.png",
+      "playlist": "Z Genre Action-Shooter.lpl",
+      "prompt": "Use case: stylized-concept. One RetroArch Action Shooter / Run and Gun icon, 256x256 final. A recognizable Turrican-inspired silver armored full-body videogame hero with blue visor and blue suit accents running in SIDE VIEW toward the right, holding a large chunky sci-fi blaster aimed horizontally ahead; three short bright orange projectile dashes leave its muzzle. Exaggerated running stride clearly shows both legs, the entire hero and gun fit compact near-square silhouette. Polished colorful retro cartoon illustration, bold clean dark outlines and thin ivory outer edge, gently shaded simplified crisp forms readable at small size. Centered with safe transparent margins. Genuine transparent background, no scene, no platform, no badge, no text, no watermark."
+    },
+    {
+      "file": "Z Genre Shoot 'em Up.png",
+      "playlist": "Z Genre Shoot 'em Up.lpl",
+      "prompt": "Use case: stylized-concept. One RetroArch Shoot em Up icon, 256x256 final. A large classic R-Type-inspired white and blue arrowhead spacecraft seen from top three-quarter view pointing diagonally upward, two orange engine jets behind, firing three short cyan projectile dashes toward a small red and purple Galaga-style insectlike alien above. Compact near-square clear arcade spaceship combat motif, large spacecraft dominant, small enemy separated. Polished colorful retro cartoon illustration, bold clean dark outlines and thin ivory outer edge, gently shaded simplified crisp forms readable at small size. Entire motif centered with safe transparent margins. Genuine transparent background, no scenery, no stars, no badge, no text, no watermark."
+    },
+    {
+      "file": "Z Genre Ego-Shooter.png",
+      "playlist": "Z Genre Ego-Shooter.lpl",
+      "prompt": "Use case: stylized-concept. Asset type: replacement Shooter genre icon for RetroArch horizontal menu, final 256x256 transparent PNG. Focus on classic FIRST PERSON SHOOTERS such as Doom, Quake, Wolfenstein 3D, Duke Nukem 3D and Half-Life. Subject: a chunky dark gray classic 1990s videogame shotgun seen unmistakably from FIRST PERSON VIEW, projecting forward from the bottom center toward the upper center, rear of the weapon largest at the bottom and barrel foreshortened into the distance. Two small brown-gloved hands hold the stock and fore-end from the lower corners. A large clear orange-red circular four-tick aiming crosshair floats just above the barrel, fully visible and separate from the weapon, making the first-person aiming concept instantly readable. Exactly one weapon. Compact nearly square cohesive composition. Stylized retro videogame inventory illustration, bold clean dark outlines with thin warm-white outer edge, gentle shading, simplified crisp details readable at small menu size. Entire motif visible with 8% transparent margin. Genuine transparent background, including inside crosshair, no scenery, no enemy, no blood, no muzzle flash, no spaceship, no bullets, no text, no badge, no watermark.",
+      "motif": "Classic first-person-view shotgun held in gloved hands below a prominent aiming crosshair; emphasizes the playlist FPS titles Doom, Quake, Wolfenstein 3D, Duke Nukem 3D and Half-Life."
+    }
+  ]
+}

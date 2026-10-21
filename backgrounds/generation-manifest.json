@@ -134,16 +134,6 @@
       "genre_dimming_opacity": 55
     },
     {
-      "genre": "Shooter",
-      "games": "DOOM 1 - The Ultimate (green armored Doom marine), Half-Life 1 (Gordon Freeman with crowbar and orange HEV suit), Quake 1 (Ranger and gothic stone arches), R-Type (R-9 spacecraft and biomechanical alien), Space Invaders (pixel alien formation), Turrican 2 (armored hero), GoldenEye 007 (suited spy silhouette)",
-      "mood": "intense sci-fi combat, alien invasion and industrial battleground, orange plasma and cold steel blue; no gore",
-      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 16:9 RetroArch genre wallpaper background. Primary request: a cohesive beautifully illustrated collage featuring recognizable characters, objects and environments from ONLY these supplied playlist titles: DOOM 1 - The Ultimate (green armored Doom marine), Half-Life 1 (Gordon Freeman with crowbar and orange HEV suit), Quake 1 (Ranger and gothic stone arches), R-Type (R-9 spacecraft and biomechanical alien), Space Invaders (pixel alien formation), Turrican 2 (armored hero), GoldenEye 007 (suited spy silhouette). Lighting and mood: intense sci-fi combat, alien invasion and industrial battleground, orange plasma and cold steel blue; no gore. Style: polished hand-painted retro game key art, richly detailed seamlessly blended montage, consistent art direction. Composition: main recognizable subjects at RIGHT half and lower-right, LEFT third low-detail calm backdrop for menu, top-left quiet for title overlay. Landscape edge-to-edge. No text, no letters, no logos, no watermarks, no UI overlay, no collage borders, no box covers. Genre: Shooter.",
-      "background": "backgrounds/Z Genre Shooter.png",
-      "xcf": "src/Z Genre Shooter.xcf",
-      "export": "dist/Z Genre Shooter.png",
-      "genre_dimming_opacity": 55
-    },
-    {
       "genre": "Simulation",
       "games": "Sim City 2000 (isometric metropolis), Theme Hospital (humorous hospital cutaway), Theme Park (rollercoaster and ferris wheel), Transport Tycoon Deluxe - OpenTTD (train tracks and locomotives), Harvest Moon (farmer and cow), Ports of Call (cargo ship and harbor), F-18 Interceptor (fighter jet)",
       "mood": "optimistic miniature living world, cozy detailed diorama, city lights, soft daylight and rich green",
@@ -792,6 +782,42 @@
         30,
         89
       ]
+    },
+    {
+      "genre": "Ego-Shooter",
+      "heading_title": "EGO-SHOOTER",
+      "games": "Alien Breed 3D; Doom 64; GoldenEye 007; Blood 1; Descent 1; Heretic; Hexen - Beyond Heretic; Redneck Rampage; Wolfenstein 3D; DOOM 1 - The Ultimate; DOOM 1 - WAD - SIGIL 1 [Midi Music]; DOOM 1 - WAD - SIGIL 2 [Midi Music]; DOOM 1 - WAD - SIGIL 2 [Soundtrack by THORR]; DOOM 2 - Hell on Earth; DOOM 2 - WAD - Alien Vendetta; Quake 1; Duke Nukem 3D; Half-Life 1; Alien Resurrection; Alien Trilogy; Descent 2; Medal of Honor 1; Medal of Honor 2 - Underground; Quake 2; Star Wars - Dark Forces",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 widescreen 16:9 RetroArch wallpaper background, will receive separate titles and menu overlay. Polished richly illustrated painterly retro videogame key art, cohesive cinematic environment, no panels or borders. Main subjects on RIGHT half and lower right, LEFT third calm low-detail atmosphere for menu and game covers, top left quiet. No text, no lettering, no logos, no UI, no watermark. Theme: classic FIRST PERSON SHOOTERS. Cohesive industrial alien-invasion environment merging Doom's steel corridors, Quake's gothic stone arches and Half-Life's orange-lit science laboratory. Recognizable green-armored Doom marine with helmet and large sci-fi weapon on the right, Gordon Freeman in orange HEV suit with crowbar near right center, a small distant suited GoldenEye spy silhouette, cold cyan light and amber energy, atmospheric heroic adventure, no blood or gore. Emphasize human-scale immersive combat, not spacecraft battles.",
+      "background": "backgrounds/Z Genre Ego-Shooter.png",
+      "xcf": "src/Z Genre Ego-Shooter.xcf",
+      "export": "dist/Z Genre Ego-Shooter.png",
+      "template_xcf": "src/Z Genre Platformer.xcf",
+      "genre_dimming_opacity": 55,
+      "playlist": "playlists/Z Genre Ego-Shooter.lpl"
+    },
+    {
+      "genre": "Action-Shooter",
+      "heading_title": "ACTION-SHOOTER",
+      "games": "Commando; The House of the Dead 1; Jurassic Park; Alien Breed 1; Alien Breed 2 - The Horror Continues; Alien Breed 3 - Tower Assault; New York Warriors; Super Obliteration; The Chaos Engine; Turrican 1; Turrican 2; Turrican 3; Zeewolf; Super Turrican 1; Jurassic Park Part 2 - The Chaos Continues; Super Probotector - Alien Rebels; Die Moorhuhnjagd 1; Die Moorhuhnjagd 2; Die Moorhuhnjagd 3; Duke Nukem 1; Duke Nukem 2; Laser Ghost; Body Count; Desert Strike - Return to the Gulf; Dynamite Duke; Gunstar Heroes; Area 51; Contra - Legacy of War; Future Cop - L.A.P.D.; Millennium Soldier - Expendable",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 widescreen 16:9 RetroArch wallpaper background, will receive separate titles and menu overlay. Polished richly illustrated painterly retro videogame key art, cohesive cinematic environment, no panels or borders. Main subjects on RIGHT half and lower right, LEFT third calm low-detail atmosphere for menu and game covers, top left quiet. No text, no lettering, no logos, no UI, no watermark. Theme: RUN AND GUN and top-down ACTION SHOOTERS. A recognizable Turrican-inspired silver armored hero with blue visor and large blaster running and leaping across rocky alien platforms at right, two small Contra / Super Probotector-style commandos in red and blue armor advancing through a jungle industrial base, distant Alien Breed-style overhead industrial corridors integrated into background terrain, a small Chaos Engine steampunk adventurer. Clearly visible full-body heroes moving through levels, orange projectile streaks toward distant robots, emerald jungle and violet mechanical ruins with warm gold highlights. No first person weapon view, no blood or gore.",
+      "background": "backgrounds/Z Genre Action-Shooter.png",
+      "xcf": "src/Z Genre Action-Shooter.xcf",
+      "export": "dist/Z Genre Action-Shooter.png",
+      "template_xcf": "src/Z Genre Platformer.xcf",
+      "genre_dimming_opacity": 55,
+      "playlist": "playlists/Z Genre Action-Shooter.lpl"
+    },
+    {
+      "genre": "Shoot 'em Up",
+      "heading_title": "SHOOT 'EM UP",
+      "games": "1943 - The Battle of Midway; Asteroids; Darius; Galaga; Space Invaders; Missile Command; R-Type; Thunder Blade; Centipede; Wizball; Hybris; Starglider 2; Wings of Fury; Gradius; Starwing; Wing Commander; Panorama Cotton; Trouble Shooter",
+      "prompt": "Use case: stylized-concept. Asset type: standalone 1920x1080 widescreen 16:9 RetroArch wallpaper background, will receive separate titles and menu overlay. Polished richly illustrated painterly retro videogame key art, cohesive cinematic environment, no panels or borders. Main subjects on RIGHT half and lower right, LEFT third calm low-detail atmosphere for menu and game covers, top left quiet. No text, no lettering, no logos, no UI, no watermark. Theme: classic ARCADE SHOOT EM UP spacecraft battles. Large recognizable R-Type-inspired white and blue R-9 spacecraft with orange force orb flying from lower right toward center, a Gradius-style white blue and red Vic Viper spacecraft banking above it, compact Galaga insectlike alien formations across upper right, subtle Space Invaders alien silhouettes as tiny distant shapes, distant aircraft inspired by 1943 above a planet. Vast deep navy and purple space nebula, luminous cyan engine trails and orange energy projectiles, sophisticated energetic arcade space opera. Main large ships and alien formations on right, left quiet atmospheric starfield.",
+      "background": "backgrounds/Z Genre Shoot 'em Up.png",
+      "xcf": "src/Z Genre Shoot 'em Up.xcf",
+      "export": "dist/Z Genre Shoot 'em Up.png",
+      "template_xcf": "src/Z Genre Platformer.xcf",
+      "genre_dimming_opacity": 55,
+      "playlist": "playlists/Z Genre Shoot 'em Up.lpl"
     }
   ],
   "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed.",

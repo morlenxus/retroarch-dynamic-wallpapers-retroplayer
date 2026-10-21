@@ -6,7 +6,19 @@ The `.png` files inside the `dist/` directory are the exported versions used by 
 
 Only the exported `.png` files are required for use in RetroArch.
 
-The 18 `Z Genre` wallpapers use generated collages based on selected titles from
+The `icons/` directory contains 23 matching playlist icons for the horizontal
+RetroArch menu: All Games, Multiplayer, Netplay, and all 20 genres. Each PNG is
+256 × 256 pixels with a transparent background and a centered illustrated motif.
+Filenames match the playlist stems exactly, including the `- ` and `Z Genre `
+prefixes. The icons depict playlist subjects and genre symbols, such as jumping
+Superfrog, an arcade maze, a fighting turtle, and a retro computer. Local multiplayer uses two
+controllers; Netplay adds a connected globe.
+`icons/generation-manifest.json` records the generation prompts and motifs.
+See the [complete icon overview](screenshots/Playlist%20Icons%20Overview.png).
+
+These icons are separate from the dynamic wallpapers in `dist/`.
+
+The 20 `Z Genre` wallpapers use generated collages based on selected titles from
 the supplied genre playlists. The standalone backgrounds are in `backgrounds/`;
 `backgrounds/generation-manifest.json` records the prompts and playlist motifs.
 Platformer combines Mario with Yoshi, Sonic, Donkey Kong, Kirby, Mega Man,
@@ -15,7 +27,7 @@ System depicts retro computing.
 Each genre XCF uses the `Genre collage` layer; the original background is removed.
 The PNGs in `dist/` include the visible titles, frames, and artwork.
 Titles use light lettering with a shadow for contrast over the artwork.
-All 18 genre sources include an editable `Genre dimming` layer at 55% opacity
+All genre sources include an editable `Genre dimming` layer at 55% opacity
 above the collage and below the titles and frames. This reduces background glare
 so menu text and game covers stand out. The original collage PNGs in
 `backgrounds/` retain their full brightness; exported wallpapers include the dimming.
@@ -25,6 +37,33 @@ Titles are centered in the same 384 × 66 px header area at (30, 23); long names
 shrink to fit. The `GENRE` caption uses a common area at (30, 87). All genre
 cover frames use the neutral Platformer frame template with identical positions
 and colors. The shared settings are recorded under `genre_style` in the manifest.
+
+Three collections replace the generic `Shooter` collection and split its 76
+playlist entries into disjoint groups. Earlier versions are tracked in Git.
+
+| Playlist | Entries | Scope |
+|---|---:|---|
+| `Z Genre Ego-Shooter` | 25 | Doom, Quake, Half-Life and other first-person shooters; includes the 6DoF Descent games. |
+| `Z Genre Action-Shooter` | 32 | Turrican-style run-and-gun, top-down and vehicle action, plus explicitly marked lightgun and target shooters. |
+| `Z Genre Shoot 'em Up` | 19 | Scrolling, fixed-screen and rail arcade shooters, plus explicitly marked adjacent space combat games. |
+
+Ready-to-copy `.lpl` files are in `playlists/`.
+The [Shooter group overview](screenshots/Shooter%20Groups%20Overview.png)
+shows the three wallpapers and their icons side by side.
+Ports, duplicate titles on different systems and DOOM WAD variants remain separate
+entries. Original game paths, core settings and database associations are preserved.
+The source playlist on the remote machine is not changed.
+
+These are practical menu groups rather than strict genre definitions: lightgun
+and Moorhuhn target games are included under Action-Shooter, while Wing Commander
+and Starglider 2 are labeled as space combat simulations within the Shoot 'em Up
+collection. Each collection has its own generated background, layered XCF source,
+1920 × 1080 wallpaper export and 256 × 256 transparent icon. The Ego-Shooter icon
+shows a first-person weapon and crosshair.
+Active filename stems match across `playlists/`, `backgrounds/`, `src/`, `dist/`
+and `icons/`: `Z Genre Ego-Shooter`, `Z Genre Action-Shooter` and
+`Z Genre Shoot 'em Up`. `Ego-Shooter` uses the German genre name requested for
+this collection.
 
 `- Games List` and `- Multiplayer Games` also use collages based on their own
 playlists, with the same layered XCF and complete PNG export workflow. Their
