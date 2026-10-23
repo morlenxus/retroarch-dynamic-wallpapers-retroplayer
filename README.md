@@ -138,6 +138,15 @@ is `Netplay`. Enable dynamic wallpapers and use this project's `dist/` as the
 wallpaper directory. With another menu language, the filename must match the
 displayed tab title.
 
+`Main Menu` is the wallpaper for the English XMB main menu, including its
+`Quit RetroArch` entry. A recessed physical power button with restrained teal
+lighting occupies the right side, leaving the left menu area calm and dark.
+The editable `Main Menu` title and the cool-blue `Fading` group match Netplay;
+lines, frames and overlays remain separate layers inside that group.
+Use `dist/Main Menu.png` for RetroArch; `src/Main Menu.xcf` is the layered source
+and `backgrounds/Main Menu.png` is the artwork. The prompt is recorded in the
+background manifest. Rebuild with `update('Main Menu')`.
+
 Game Gear and Sega CD include original platform logo artwork on separate layers
 alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
 [assets/logos](assets/logos/README.md). Their release labels use the first Japanese

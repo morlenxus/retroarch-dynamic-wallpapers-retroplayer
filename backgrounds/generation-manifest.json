@@ -867,6 +867,23 @@
       "xcf": "src/Netplay.xcf",
       "export": "dist/Netplay.png",
       "frame_template": "src/Nintendo - Wii.xcf"
+    },
+    {
+      "genre": "Main Menu",
+      "design": "menu-surface",
+      "menu": "English XMB Main Menu (includes Quit RetroArch)",
+      "support_source": "https://github.com/libretro/RetroArch/blob/master/menu/drivers/xmb.c",
+      "title_source": "https://github.com/libretro/RetroArch/blob/master/intl/msg_hash_us.h",
+      "prompt": "Use case: product-mockup. Asset type: one clean 1920x1080 16:9 RetroArch Main Menu wallpaper, matching an understated collection of tactile retro device backgrounds and a dark teal network wallpaper. Primary request: a calm dark still life centered on switching a gaming system on or off, suitable for the Main Menu containing Quit RetroArch. On the RIGHT third, a single refined physical round power pushbutton, shallow recessed into a seamless matte charcoal surface, viewed at a slight oblique angle. A SMALL standard power symbol is engraved into its upper face, softly lit in muted cool cyan. A very thin restrained blue-green light around the recessed button rim, no bloom or neon halo. Button occupies roughly one quarter of image width, centered around x=1500 y=580, fine grained dark plastic with a softly bevelled edge, realistic subtle contact shadows and elegant directional evening studio lighting. This is an extreme close-up abstract physical detail, not a full console or computer. LEFT 60 percent uninterrupted near-uniform dark graphite, gently fading to black, absolutely clear for menu text and title. Right-side lighting softly falls away toward center. Clean premium photographic product rendering, quiet tactile material, carefully restrained contrast, coordinated muted charcoal and teal palette. No other buttons, ports, vents, cables, hands, controllers, disks, game characters, rooms, stars, circuitry, grid, UI panels, borders, text, words, letters, brand marks or watermark. No giant floating graphic icon; the power symbol is a small engraving on the real button. No overlay title or frames, they are added separately. One landscape full-bleed wallpaper.",
+      "heading_title": "Main Menu",
+      "heading_subtitle": "",
+      "show_cover_frames": true,
+      "frame_template": "src/Nintendo - Wii.xcf",
+      "collage_layer": "Playlist collage",
+      "playlist_dimming_opacity": 0,
+      "background": "backgrounds/Main Menu.png",
+      "xcf": "src/Main Menu.xcf",
+      "export": "dist/Main Menu.png"
     }
   ],
   "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed.",
