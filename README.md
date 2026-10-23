@@ -103,6 +103,14 @@ lettering with a dark shadow. The manifest records each system's playlist, promp
 shading strength.
 Separate top-right device illustrations and their presentation cards are removed.
 
+`- Controller Settings` follows the clean hardware style: a dark graphite
+controller surface with cropped buttons and an analog stick on the right, leaving
+the left side quiet for the menu. Its editable `CONTROLLER` / `SETTINGS` heading
+and neutral cover frames sit above the `System surface` layer. The ready-to-use
+1920 × 1080 export is `dist/- Controller Settings.png`; the layered source is
+`src/- Controller Settings.xcf`. The generation prompt is recorded in the background
+manifest. Rebuild it in GIMP with `update('Controller Settings')`.
+
 Game Gear and Sega CD include original platform logo artwork on separate layers
 alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
 [assets/logos](assets/logos/README.md). Their release labels use the first Japanese

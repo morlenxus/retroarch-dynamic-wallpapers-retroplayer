@@ -218,10 +218,13 @@ def update(genre=None):
 
         xcf_path = ROOT / asset["xcf"]
         is_new = not xcf_path.exists()
-        source_path = ROOT / asset["template_xcf"] if is_new else xcf_path
-        image = Gimp.file_load(
-            Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(source_path))
-        )
+        if is_new and asset.get("design") == "controller-surface":
+            image = Gimp.Image.new(1920, 1080, Gimp.ImageBaseType.RGB)
+        else:
+            source_path = ROOT / asset["template_xcf"] if is_new else xcf_path
+            image = Gimp.file_load(
+                Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(source_path))
+            )
         image.undo_disable()
         if is_new and asset.get("design") == "hardware-surface":
             initialize_hardware_header(image, asset)

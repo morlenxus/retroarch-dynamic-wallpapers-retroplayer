@@ -818,6 +818,20 @@
       "template_xcf": "src/Z Genre Platformer.xcf",
       "genre_dimming_opacity": 55,
       "playlist": "playlists/Z Genre Shoot 'em Up.lpl"
+    },
+    {
+      "genre": "Controller Settings",
+      "design": "controller-surface",
+      "playlist": "- Controller Settings.lpl",
+      "playlist_source": "User-supplied - Controller Settings.lpl: Connect new Controller, PC - DOS, Sinclair - 1982 - ZX Spectrum, Sony - 1994 - PlayStation 1",
+      "prompt": "Use case: product-mockup. Asset type: clean 1920x1080 16:9 RetroArch dynamic wallpaper hardware surface, matching a collection of macro console shell photographs. Primary request: Controller Settings playlist background. Extreme close-up of a single premium dark graphite game controller surface filling the entire image edge-to-edge. Finely grained matte injection-moulded plastic, subtle housing seam, softly bevelled recess. On RIGHT third only: a cropped recessed black analog thumbstick at lower right and four understated charcoal face buttons at upper right, tiny muted cool-blue status light. This is an oversized cropped hardware surface, not a complete controller floating on a backdrop. LEFT 60 percent is uninterrupted nearly flat charcoal plastic with soft illumination, quiet and uncluttered, reserved for menu and cover frames. Clean studio product rendering, tactile realistic material, restrained monochrome, soft evening lighting, crisp detailed texture but low contrast. Match reference collection's minimal macro hardware aesthetic. No text, labels, letters, logos, diagrams, UI, frames, tools, gears, hands, people, room, neon or watermark.",
+      "heading_title": "CONTROLLER",
+      "heading_subtitle": "SETTINGS",
+      "collage_layer": "System surface",
+      "playlist_dimming_opacity": 0,
+      "background": "backgrounds/- Controller Settings.png",
+      "xcf": "src/- Controller Settings.xcf",
+      "export": "dist/- Controller Settings.png"
     }
   ],
   "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed.",
