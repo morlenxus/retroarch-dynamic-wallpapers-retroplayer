@@ -147,6 +147,16 @@ Use `dist/Main Menu.png` for RetroArch; `src/Main Menu.xcf` is the layered sourc
 and `backgrounds/Main Menu.png` is the artwork. The prompt is recorded in the
 background manifest. Rebuild with `update('Main Menu')`.
 
+`Settings` adds a matching wallpaper for the English XMB Settings tab. Three
+dark rotary adjustment dials with restrained teal accents and distinct pointer
+directions occupy the right side;
+the left side stays dark and quiet for the menu. The editable `Settings` title
+and separate cool-blue `Fading` group match Main Menu and Netplay, preserving
+individual line, frame and overlay layers. Use `dist/Settings.png` in RetroArch;
+the layered source is `src/Settings.xcf` and the artwork is
+`backgrounds/Settings.png`. The background manifest records the generation prompt.
+Rebuild with `update('Settings')`.
+
 Game Gear and Sega CD include original platform logo artwork on separate layers
 alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
 [assets/logos](assets/logos/README.md). Their release labels use the first Japanese

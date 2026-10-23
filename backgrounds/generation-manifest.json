@@ -884,6 +884,31 @@
       "background": "backgrounds/Main Menu.png",
       "xcf": "src/Main Menu.xcf",
       "export": "dist/Main Menu.png"
+    },
+    {
+      "genre": "Settings",
+      "design": "menu-surface",
+      "menu": "English XMB Settings tab",
+      "support_source": "https://github.com/libretro/RetroArch/blob/master/menu/drivers/xmb.c",
+      "title_source": "https://github.com/libretro/RetroArch/blob/master/intl/msg_hash_us.h",
+      "prompt": "Use case: product-mockup. Asset type: one clean 1920x1080 widescreen 16:9 RetroArch Settings menu wallpaper coordinated with a dark graphite Main Menu power-button closeup and muted teal Netplay wallpaper. Primary request: calm premium macro product photograph of tactile adjustment controls representing configuration and fine tuning. On RIGHT 40 percent only, three dark charcoal knurled rotary adjustment dials of slightly different sizes, mounted in a seamless matte graphite surface, arranged with generous spacing in a gentle diagonal from upper right to lower center-right. Each dial has one tiny muted cool-cyan index mark, one very thin understated teal-blue accent at its base, realistic physical bevels, fine-grained matte plastic and subtle edge highlights. Slight oblique top-down view, cropped macro control-panel detail rather than a complete device. NO printed labels or scales; the controls alone communicate settings. Soft evening studio lighting, low contrast, restrained cyan, tactile precise industrial finish. LEFT 58 percent nearly uniform very dark charcoal negative space, smooth soft lighting falloff, completely free of objects for later menu and title. Right-side details dissolve naturally into shadow towards center. Clean sparse layout, refined depth and contact shadows, match restrained realistic retro-device wallpaper aesthetic. No gears or cog icons, no power symbols, no network, no controller, no full console, no screws, cables, hands, people, room, busy panel or circuitry. No text, letters, numbers, logos, interface graphics, borders, frames, watermarks, strong neon bloom or bright glare. Title and framing will be added separately. One full-bleed landscape image.",
+      "heading_title": "Settings",
+      "heading_subtitle": "",
+      "show_cover_frames": true,
+      "frame_template": "src/Nintendo - Wii.xcf",
+      "collage_layer": "Playlist collage",
+      "playlist_dimming_opacity": 0,
+      "background": "backgrounds/Settings.png",
+      "xcf": "src/Settings.xcf",
+      "export": "dist/Settings.png",
+      "edit_prompts": [
+        "Use case: precise-object-edit. Edit the supplied Settings wallpaper artwork. Change ONLY the angular positions of the cyan index marks on the three rotary knob top faces, to make the three knobs point in clearly DIFFERENT directions. TOP knob: its single cyan marker points to approximately 10 o'clock (upper-left on its face). SMALL RIGHT knob: its single cyan marker points to approximately 2 o'clock (upper-right on its face). LARGE LOWER knob: its single cyan marker points to approximately 7 o'clock (lower-left on its face). Remove each old lower-right marker completely, replacing it with matching seamless dark textured knob surface; exactly ONE radial cyan tick on each knob, not additional ticks. Follow the perspective and curvature of each top face. Keep everything else unchanged: all three knobs' size, location, shape, knurled sides, charcoal materials, thin teal base rings, original lighting and shadows, camera angle, dark empty left menu space, image framing and 16:9 composition. No text or new objects. Preserve the clean realistic photographic style. Output 1920x1080 landscape."
+      ],
+      "dial_positions": {
+        "top": "10 oclock",
+        "small_right": "2 oclock",
+        "large_lower": "7 oclock"
+      }
     }
   ],
   "hardware_note": "System backgrounds are artistic interpretations of hardware materials and forms, not exact product photographs. Existing platform logos and frames are retained; separate device illustrations and presentation cards are removed.",
