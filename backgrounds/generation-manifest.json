@@ -934,5 +934,23 @@
       2,
       2
     ]
+  },
+  "menu_overlay_style": {
+    "Overlay Outside": {
+      "opacity": 35,
+      "visible": true
+    },
+    "Overlay Inside": {
+      "opacity": 50,
+      "visible": true
+    },
+    "Border X": {
+      "opacity": 55,
+      "visible": true
+    },
+    "Border Y": {
+      "opacity": 100,
+      "visible": true
+    }
   }
 }

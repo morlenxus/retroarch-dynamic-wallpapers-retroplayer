@@ -3,6 +3,8 @@
 Use runpy.run_path(...)["update"]() to rebuild all generated playlist sources and exports.
 An optional playlist argument (stored as "genre" in the manifest) rebuilds only that asset. Requires the generated
 backgrounds and generation-manifest.json; does not call an image service.
+Use update_overlays() to apply the shared icon-strip style to existing sources
+and exports without rebuilding artwork, logos or headings.
 """
 
 import json
@@ -98,6 +100,42 @@ def align_playlist_overlay(image, asset, style):
         dx, dy = style["shadow_offset"]
         shadow.set_offsets(x + dx, y + dy)
         shadow.set_visible(True)
+
+
+def style_menu_overlay(image, style):
+    """Apply the same icon-strip contrast and borders to every wallpaper."""
+    group = next(l for l in image.get_layers() if l.get_name() == "Fading")
+    layers = {l.get_name(): l for l in group.get_children()}
+    for name, settings in style.items():
+        layer = layers[name]
+        layer.set_opacity(settings["opacity"])
+        layer.set_visible(settings["visible"])
+
+
+def update_overlays(genres=None):
+    """Update only editable overlays and exports, preserving existing artwork/text."""
+    manifest = json.loads((ROOT / "backgrounds/generation-manifest.json").read_text())
+    assets = manifest["assets"]
+    if genres is None:
+        sources = {p.resolve() for p in (ROOT / "src").rglob("*.xcf")}
+        expected = {(ROOT / a["xcf"]).resolve() for a in assets}
+        if sources != expected:
+            raise RuntimeError("XCF files and manifest assets do not match")
+    for asset in assets:
+        if genres is not None and asset["genre"] not in genres:
+            continue
+        path = ROOT / asset["xcf"]
+        image = Gimp.file_load(Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(path)))
+        try:
+            image.undo_disable()
+            style_menu_overlay(image, manifest["menu_overlay_style"])
+            if not Gimp.file_save(Gimp.RunMode.NONINTERACTIVE, image,
+                                  Gio.File.new_for_path(str(path))):
+                raise RuntimeError(f"XCF save failed: {path}")
+            export_png(image, ROOT / asset["export"])
+        finally:
+            image.delete()
+        print(f"Updated overlays: {asset['genre']}", flush=True)
 
 
 def style_hardware(image, asset):
@@ -293,6 +331,9 @@ def update(genre=None):
             style_collage(image, asset)
             if "genre_style" in manifest:
                 align_playlist_overlay(image, asset, manifest["genre_style"])
+
+        if "menu_overlay_style" in manifest:
+            style_menu_overlay(image, manifest["menu_overlay_style"])
 
         if not Gimp.file_save(
             Gimp.RunMode.NONINTERACTIVE, image, Gio.File.new_for_path(str(xcf_path))

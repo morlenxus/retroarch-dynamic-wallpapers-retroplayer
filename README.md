@@ -6,6 +6,15 @@ The `.png` files inside the `dist/` directory are the exported versions used by 
 
 Only the exported `.png` files are required for use in RetroArch.
 
+All XCF sources use the same editable icon-strip styling in the `Fading` group:
+`Overlay Outside` is 35% opaque, `Overlay Inside` is 50%, the horizontal
+`Border X` is visible at 55%, and the vertical `Border Y` is visible at 100%.
+These settings apply equally to light and dark artwork and are recorded in
+`menu_overlay_style` in the background manifest. The normal `update()` rebuild
+applies them; `update_overlays()` refreshes only these layers and PNG exports,
+preserving existing artwork, logos and text. Playlist filename aliases in `dist/`
+are symlinks and automatically use the updated exports.
+
 The `icons/` directory contains 23 matching playlist icons for the horizontal
 RetroArch menu: All Games, Multiplayer, Netplay, and all 20 genres. Each PNG is
 256 × 256 pixels with a transparent background and a centered illustrated motif.
