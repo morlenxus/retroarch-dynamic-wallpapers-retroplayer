@@ -51,21 +51,22 @@ def style_collage(image, asset):
 
 def align_playlist_overlay(image, asset, style):
     """Use one frame template and center editable headings in a shared area."""
-    template = Gimp.file_load(
-        Gimp.RunMode.NONINTERACTIVE,
-        Gio.File.new_for_path(str(ROOT / style["frame_template"])),
-    )
-    try:
-        source = next(l for l in template.get_layers() if l.get_name() == "Fading")
-        frame = Gimp.Layer.new_from_drawable(source, image)
-        for layer in list(image.get_layers()):
-            if layer.get_name() == "Fading" or isinstance(layer, Gimp.TextLayer):
-                image.remove_layer(layer)
-        image.insert_layer(frame, None, 0)
-        frame.set_name("Fading")
-        frame.set_visible(True)
-    finally:
-        template.delete()
+    for layer in list(image.get_layers()):
+        if layer.get_name() == "Fading" or isinstance(layer, Gimp.TextLayer):
+            image.remove_layer(layer)
+    if asset.get("show_cover_frames", True):
+        template = Gimp.file_load(
+            Gimp.RunMode.NONINTERACTIVE,
+            Gio.File.new_for_path(str(ROOT / asset.get("frame_template", style["frame_template"]))),
+        )
+        try:
+            source = next(l for l in template.get_layers() if l.get_name() == "Fading")
+            frame = Gimp.Layer.new_from_drawable(source, image)
+            image.insert_layer(frame, None, 0)
+            frame.set_name("Fading")
+            frame.set_visible(True)
+        finally:
+            template.delete()
 
     font = Gimp.Font.get_by_name(style["font"])
     if font is None:

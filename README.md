@@ -122,6 +122,22 @@ The 1920 × 1080 wallpaper is `dist/History.png`, the layered source is
 The background manifest records the built-in image generation prompt;
 rebuild the source and export with `update('History')`.
 
+`Netplay` is a clean wallpaper for the XMB Netplay menu tab: restrained teal-blue
+network connections and nodes on the right fade into an empty charcoal menu area
+on the left. The editable `Netplay` heading uses the shared typography. The
+separate `Fading` overlay uses the Wii wallpaper's cool-blue vertical lines,
+light cover frames and translucent horizontal band to match the network motif.
+The manifest selects this overlay with an asset-specific `frame_template`.
+This menu wallpaper is
+`dist/Netplay.png`, with its source in `src/Netplay.xcf` and artwork in
+`backgrounds/Netplay.png`. It is separate from the `- Netplay Games` playlist.
+Rebuild with `update('Netplay')`; the background manifest records the prompt.
+XMB supports this through its [dynamic wallpaper lookup by menu title](https://github.com/libretro/RetroArch/blob/master/menu/drivers/xmb.c),
+and the [English Netplay tab title](https://github.com/libretro/RetroArch/blob/master/intl/msg_hash_us.h)
+is `Netplay`. Enable dynamic wallpapers and use this project's `dist/` as the
+wallpaper directory. With another menu language, the filename must match the
+displayed tab title.
+
 Game Gear and Sega CD include original platform logo artwork on separate layers
 alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
 [assets/logos](assets/logos/README.md). Their release labels use the first Japanese
