@@ -16,7 +16,8 @@ The set includes:
 - **Collections** – `- Games List`, `- Multiplayer Games`, `- Netplay Games` and
   `- Controller Settings`. [Overview](screenshots/Collections%20Overview.jpg)
 - **Menu tabs** – `Main Menu`, `Settings`, `History` and `Netplay` (English menu titles).
-- **23 playlist icons** (256 × 256, transparent) for All Games, Multiplayer, Netplay
+- **24 playlist icons** (256 × 256, transparent) for All Games, Multiplayer,
+  Netplay, Controller Settings
   and all genres in `icons/`. [Overview](screenshots/Playlist%20Icons%20Overview.png)
 
 | Directory | Content |
