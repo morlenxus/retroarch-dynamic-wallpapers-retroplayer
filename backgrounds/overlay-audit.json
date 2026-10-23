@@ -1,0 +1,1677 @@
+{
+  "checked_files": 49,
+  "line_style": {
+    "lightness_hsl": 0.72,
+    "maximum_saturation_hsl": 0.25,
+    "opacity_both_axes": 85,
+    "note": "Shared line brightness and opacity across all sources; per-asset muted hue retained in menu_line_color. Existing line geometry and alpha fades are preserved."
+  },
+  "files": [
+    {
+      "xcf": "src/- Controller Settings.xcf",
+      "export": "dist/- Controller Settings.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/- Games List.xcf",
+      "export": "dist/- Games List.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/- Multiplayer Games.xcf",
+      "export": "dist/- Multiplayer Games.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/- Netplay Games.xcf",
+      "export": "dist/- Netplay Games.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Atari - 2600.xcf",
+      "export": "dist/Atari - 2600.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Commodore - 64.xcf",
+      "export": "dist/Commodore - 64.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c3bbac",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c3bbac",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Commodore - Amiga.xcf",
+      "export": "dist/Commodore - Amiga.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c2bdad",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c2bdad",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Handheld Electronic Game.xcf",
+      "export": "dist/Handheld Electronic Game.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#b8b8b8",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#b8b8b8",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/History.xcf",
+      "export": "dist/History.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/MAME.xcf",
+      "export": "dist/MAME.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6c9bb",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6c9bb",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Main Menu.xcf",
+      "export": "dist/Main Menu.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Netplay.xcf",
+      "export": "dist/Netplay.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Game Boy Advance.xcf",
+      "export": "dist/Nintendo - Game Boy Advance.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#b2a6c9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#b2a6c9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Game Boy Color.xcf",
+      "export": "dist/Nintendo - Game Boy Color.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#bcc9a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#bcc9a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Game Boy.xcf",
+      "export": "dist/Nintendo - Game Boy.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#bcc9a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#bcc9a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Nintendo 64.xcf",
+      "export": "dist/Nintendo - Nintendo 64.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6b9c9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6b9c9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Nintendo Entertainment System.xcf",
+      "export": "dist/Nintendo - Nintendo Entertainment System.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c1c9a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c1c9a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Super Nintendo Entertainment System.xcf",
+      "export": "dist/Nintendo - Super Nintendo Entertainment System.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#bdb2b6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#bdb2b6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Nintendo - Wii.xcf",
+      "export": "dist/Nintendo - Wii.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/PC - DOS.xcf",
+      "export": "dist/PC - DOS.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9bfa6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9bfa6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/PC - Windows.xcf",
+      "export": "dist/PC - Windows.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6c1c9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6c1c9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sega - CD.xcf",
+      "export": "dist/Sega - CD.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sega - Dreamcast.xcf",
+      "export": "dist/Sega - Dreamcast.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sega - Game Gear.xcf",
+      "export": "dist/Sega - Game Gear.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#abadc4",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sega - Master System - Mark III.xcf",
+      "export": "dist/Sega - Master System - Mark III.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9a6a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9a6a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sega - Mega Drive - Genesis.xcf",
+      "export": "dist/Sega - Mega Drive - Genesis.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9a8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9a8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Settings.xcf",
+      "export": "dist/Settings.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#a6bfc9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sinclair - ZX Spectrum.xcf",
+      "export": "dist/Sinclair - ZX Spectrum.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#b8b7b8",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#b8b7b8",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Sony - PlayStation.xcf",
+      "export": "dist/Sony - PlayStation.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#b7b7b9",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#b7b7b9",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Action-Adventure.xcf",
+      "export": "dist/Z Genre Action-Adventure.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Action-Shooter.xcf",
+      "export": "dist/Z Genre Action-Shooter.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Action.xcf",
+      "export": "dist/Z Genre Action.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Beat 'em Up.xcf",
+      "export": "dist/Z Genre Beat 'em Up.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Ego-Shooter.xcf",
+      "export": "dist/Z Genre Ego-Shooter.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Fighting.xcf",
+      "export": "dist/Z Genre Fighting.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Maze.xcf",
+      "export": "dist/Z Genre Maze.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Paddle.xcf",
+      "export": "dist/Z Genre Paddle.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Platformer.xcf",
+      "export": "dist/Z Genre Platformer.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Point-and-Click-Adventure.xcf",
+      "export": "dist/Z Genre Point-and-Click-Adventure.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Puzzle.xcf",
+      "export": "dist/Z Genre Puzzle.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Quiz.xcf",
+      "export": "dist/Z Genre Quiz.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Racing.xcf",
+      "export": "dist/Z Genre Racing.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Role-Playing Game.xcf",
+      "export": "dist/Z Genre Role-Playing Game.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Shoot 'em Up.xcf",
+      "export": "dist/Z Genre Shoot 'em Up.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Simulation.xcf",
+      "export": "dist/Z Genre Simulation.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Sports.xcf",
+      "export": "dist/Z Genre Sports.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Strategy.xcf",
+      "export": "dist/Z Genre Strategy.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre Survival Horror.xcf",
+      "export": "dist/Z Genre Survival Horror.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    },
+    {
+      "xcf": "src/Z Genre System.xcf",
+      "export": "dist/Z Genre System.png",
+      "lines": {
+        "Border X": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            80,
+            0,
+            233
+          ],
+          "alpha_sha256": "96db5780de194a84970dc62527e88eeea94b73464a774d761d15823c09c36324",
+          "visible": true,
+          "editable": true
+        },
+        "Border Y": {
+          "opacity": 85.0,
+          "color": "#c9b8a6",
+          "geometry": [
+            1920,
+            1080,
+            0,
+            0
+          ],
+          "alpha_sha256": "b856d1fc5261e636523e7ab679527e1b9035454cb69a4dbfc9c6b73e3179092f",
+          "visible": true,
+          "editable": true
+        }
+      },
+      "frames": "visible, editable, shared geometry",
+      "status": "OK"
+    }
+  ]
+}

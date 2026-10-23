@@ -102,7 +102,7 @@ def align_playlist_overlay(image, asset, style):
         shadow.set_visible(True)
 
 
-def style_menu_overlay(image, style):
+def style_menu_overlay(image, style, line_color=None):
     """Apply the same icon-strip contrast and borders to every wallpaper."""
     group = next(l for l in image.get_layers() if l.get_name() == "Fading")
     layers = {l.get_name(): l for l in group.get_children()}
@@ -110,6 +110,23 @@ def style_menu_overlay(image, style):
         layer = layers[name]
         layer.set_opacity(settings["opacity"])
         layer.set_visible(settings["visible"])
+    if line_color:
+        # Keep the original line geometry, edge fades and transparency while
+        # matching the brightness of both axes to the asset's muted accent.
+        Gimp.context_push()
+        try:
+            Gimp.Selection.none(image)
+            Gimp.context_set_foreground(Gegl.Color.new(line_color))
+            for name in ("Border X", "Border Y"):
+                layer = layers[name]
+                locked = layer.get_lock_alpha()
+                try:
+                    layer.set_lock_alpha(True)
+                    layer.edit_fill(Gimp.FillType.FOREGROUND)
+                finally:
+                    layer.set_lock_alpha(locked)
+        finally:
+            Gimp.context_pop()
 
 
 def update_overlays(genres=None):
@@ -128,7 +145,7 @@ def update_overlays(genres=None):
         image = Gimp.file_load(Gimp.RunMode.NONINTERACTIVE, Gio.File.new_for_path(str(path)))
         try:
             image.undo_disable()
-            style_menu_overlay(image, manifest["menu_overlay_style"])
+            style_menu_overlay(image, manifest["menu_overlay_style"], asset.get("menu_line_color"))
             if not Gimp.file_save(Gimp.RunMode.NONINTERACTIVE, image,
                                   Gio.File.new_for_path(str(path))):
                 raise RuntimeError(f"XCF save failed: {path}")
@@ -272,7 +289,7 @@ def update(genre=None):
         original_layers = list(image.get_layers())
         for layer in original_layers:
             if layer.get_name() in (
-                "Genre collage", "Playlist collage", "System surface",
+                "Genre collage", "Genre still life", "Playlist collage", "Playlist still life", "System surface",
                 "Background", "Background (old)"
             ):
                 image.remove_layer(layer)
@@ -333,7 +350,7 @@ def update(genre=None):
                 align_playlist_overlay(image, asset, manifest["genre_style"])
 
         if "menu_overlay_style" in manifest:
-            style_menu_overlay(image, manifest["menu_overlay_style"])
+            style_menu_overlay(image, manifest["menu_overlay_style"], asset.get("menu_line_color"))
 
         if not Gimp.file_save(
             Gimp.RunMode.NONINTERACTIVE, image, Gio.File.new_for_path(str(xcf_path))
