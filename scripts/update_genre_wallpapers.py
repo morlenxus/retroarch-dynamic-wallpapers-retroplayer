@@ -25,7 +25,7 @@ def remove_device(image):
 def style_collage(image, asset):
     """Dim only the collage, keeping foreground titles and frames bright."""
     collage_name = asset.get("collage_layer", "Genre collage")
-    shading_name = "Playlist dimming" if collage_name == "Playlist collage" else "Genre dimming"
+    shading_name = "Playlist dimming" if "playlist_dimming_opacity" in asset else "Genre dimming"
     for layer in list(image.get_layers()):
         if layer.get_name() == shading_name:
             image.remove_layer(layer)
@@ -218,7 +218,7 @@ def update(genre=None):
 
         xcf_path = ROOT / asset["xcf"]
         is_new = not xcf_path.exists()
-        if is_new and asset.get("design") == "controller-surface":
+        if is_new and asset.get("design") in ("controller-surface", "menu-surface"):
             image = Gimp.Image.new(1920, 1080, Gimp.ImageBaseType.RGB)
         else:
             source_path = ROOT / asset["template_xcf"] if is_new else xcf_path

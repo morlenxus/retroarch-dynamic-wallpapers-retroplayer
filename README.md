@@ -111,6 +111,17 @@ and neutral cover frames sit above the `System surface` layer. The ready-to-use
 `src/- Controller Settings.xcf`. The generation prompt is recorded in the background
 manifest. Rebuild it in GIMP with `update('Controller Settings')`.
 
+`History` depicts recently played games as a clean still life of unlabelled
+cartridges, floppy disks in several formats and silver CDs, loosely overlapping
+on the right. The media fade into a dark, quiet menu area on the left. Muted
+materials, soft lighting and restrained color keep the image consistent with
+the device wallpapers. Its editable `History` heading and shared cover frames
+remain separate from the `Playlist collage` and 12% `Playlist dimming` layers.
+The 1920 × 1080 wallpaper is `dist/History.png`, the layered source is
+`src/History.xcf`, and the original artwork is `backgrounds/History.png`.
+The background manifest records the built-in image generation prompt;
+rebuild the source and export with `update('History')`.
+
 Game Gear and Sega CD include original platform logo artwork on separate layers
 alongside the existing SEGA wordmark. Vector artwork and attribution are stored in
 [assets/logos](assets/logos/README.md). Their release labels use the first Japanese
